@@ -1,0 +1,751 @@
+{
+  "1.31.0": {
+    "date": "October 2018",
+    "notes": [
+      {
+        "id": "d05dc051b7c2b87ea17cf72330c07312a05c1dce",
+        "type": "FEATURE",
+        "text": " Adding new group \"DIALOG\" to designtime metadata tests",
+        "references": []
+      },
+      {
+        "id": "d4e23c57c0311674678f6cf543af44904225ae0e",
+        "type": "FEATURE",
+        "text": " enable Simpleform using afterHook functions",
+        "references": []
+      },
+      {
+        "id": "1d7880c6dbb82c431000891457ffdcf33b6f1c64",
+        "type": "FEATURE",
+        "text": " sap.ui.dt - rename plugin to design time",
+        "references": []
+      },
+      {
+        "id": "963ac0e590fb83f8721a0fb76df8e1247773febb",
+        "type": "FEATURE",
+        "text": " sap.ui.dt : added renaming to context menu",
+        "references": []
+      },
+      {
+        "id": "9154b3be81771e137fbfcc3493da332056a5f7be",
+        "type": "FEATURE",
+        "text": " sap.ui.dt Instance specific design time metadata",
+        "references": []
+      },
+      {
+        "id": "464a8c89b9d6fc0bc39a007c0a0c5977b175ae40",
+        "type": "FEATURE",
+        "text": " sap.ui.dt: Added safari support",
+        "references": []
+      },
+      {
+        "id": "0ff96e3df517fe0060ddc7d391707eb91fa11457",
+        "type": "FEATURE",
+        "text": " sap.ui.dt: Enabled Firefox support",
+        "references": []
+      },
+      {
+        "id": "b5b315e9a2e999f60d6fbc60bcadaa5687603adf",
+        "type": "FEATURE",
+        "text": " sap.ui.dt: Shared configuration for test pages",
+        "references": []
+      },
+      {
+        "id": "503d247a75b12c063c72e030855e14ca333b2e5a",
+        "type": "FEATURE",
+        "text": " sap.ui.dt: ability to enable/disable overlays",
+        "references": []
+      },
+      {
+        "id": "575330a7789489107d5a3448cb58ab18c2580cba",
+        "type": "FEATURE",
+        "text": " sap.ui.rta: Dynamic plugin registration on context menu",
+        "references": []
+      },
+      {
+        "id": "362f18583fa1fa447d474e52e8a659bc7adc5309",
+        "type": "FEATURE",
+        "text": "sap.ui.rta: Support for multiple actions on Settings plugin",
+        "references": []
+      },
+      {
+        "id": "f9b274c8ebd8f4195c499c83904c68dc339c1599",
+        "type": "FIX",
+        "text": " - cut-paste shortcuts on mac",
+        "references": []
+      },
+      {
+        "id": "884552f9d7d1e44281247bbfeb9661ba103b710f",
+        "type": "FIX",
+        "text": " - performance test - applyChange",
+        "references": []
+      },
+      {
+        "id": "c7fb152207fb039493957d95aec4742615a24558",
+        "type": "FIX",
+        "text": " Cleanup stuff",
+        "references": []
+      },
+      {
+        "id": "17d6cf1ec475a2690bea79096a17e3cc649130eb",
+        "type": "FIX",
+        "text": " Combine on the wrong element",
+        "references": []
+      },
+      {
+        "id": "513222352385d22dec96fbbbb31e93e47559e415",
+        "type": "FIX",
+        "text": " Context menu can be called during rename and throws error",
+        "references": []
+      },
+      {
+        "id": "ff72e0fba42a304621196141e3dd8cab6b8ed34c",
+        "type": "FIX",
+        "text": " Control Enablement Report doesn\u0027t work",
+        "references": []
+      },
+      {
+        "id": "d25e53c559708b3bd83b1010482c9f0a598bd0da",
+        "type": "FIX",
+        "text": " Deactivate instanceof check in dt LibraryTest",
+        "references": []
+      },
+      {
+        "id": "4a9fb37438967ae49c9eaf3091ba3db38ecce71c",
+        "type": "FIX",
+        "text": " Exception throws in HanldeDtPropagation Qunit",
+        "references": []
+      },
+      {
+        "id": "a02a75d0e36c66b795e3a6073c9d611492dae8c9",
+        "type": "FIX",
+        "text": " Fix control variant issues",
+        "references": []
+      },
+      {
+        "id": "7c76c9461fee6186d4d7f9fa05ed68a837aea389",
+        "type": "FIX",
+        "text": " Fix errors in stable id check",
+        "references": []
+      },
+      {
+        "id": "fa7705ba0d15be021cd22a7d7d7e5b9ce4f497f9",
+        "type": "FIX",
+        "text": " ManagedObject: fix \u0027off by 1\u0027 bug in generated association methods",
+        "references": []
+      },
+      {
+        "id": "99356a6c7776acd40b85bab61d202efe8479f1d5",
+        "type": "FIX",
+        "text": " MiniMenu not longer overwriting Popover style",
+        "references": []
+      },
+      {
+        "id": "4a586b06162da545bc4e85be62c8bcc22a45415a",
+        "type": "FIX",
+        "text": " Prevent calling unobserve() more than once and eslint fixes",
+        "references": []
+      },
+      {
+        "id": "6e5c4af6172369f245eebb535ec1fbf3a0ae2ff4",
+        "type": "FIX",
+        "text": " QUnit Designtime Library tests in Firefox",
+        "references": []
+      },
+      {
+        "id": "e9790b900c684c5d3cf14a4bc669a9a65cd1e333",
+        "type": "FIX",
+        "text": " Revise ElementUtil.isValidForAggregation",
+        "references": []
+      },
+      {
+        "id": "592004d1eb67972e445b9410a5153453f1fd6cc2",
+        "type": "FIX",
+        "text": " Revise arrow key navigation",
+        "references": []
+      },
+      {
+        "id": "ba223d22673f3f3a89069924fb6f8849f043a45b",
+        "type": "FIX",
+        "text": " Revise test case for ManagedObjectObserver",
+        "references": []
+      },
+      {
+        "id": "15e9df5bfaa4fbb4c3214436ce81eec0e69e26a1",
+        "type": "FIX",
+        "text": " Smartlink not selectable after combine",
+        "references": []
+      },
+      {
+        "id": "d5a9b0b2f7fb6cf4c0cb82fe454e77b1dd53c644",
+        "type": "FIX",
+        "text": " Stabalize test case by rounding numbers",
+        "references": []
+      },
+      {
+        "id": "5325a53ccfb208609ffc53982488f9d5ce89ed6f",
+        "type": "FIX",
+        "text": " Stabilize test case by rounding numbers",
+        "references": []
+      },
+      {
+        "id": "6b9d17db720ddb1cd91f8122b08c77d991166674",
+        "type": "FIX",
+        "text": " Write explanation for failure in overlay creation",
+        "references": []
+      },
+      {
+        "id": "eb2beffb9ab2f1302ef5a3219ca338479a1748cb",
+        "type": "FIX",
+        "text": " add contextmenu styleclass to minimenu.less",
+        "references": []
+      },
+      {
+        "id": "b1009a2f50f936340c112e842fd1362df00398ea",
+        "type": "FIX",
+        "text": " add group to simpleForm",
+        "references": []
+      },
+      {
+        "id": "199f56da66d21f3091edeb6e73bf900c907b6d06",
+        "type": "FIX",
+        "text": " block ghost creation on IE and Edge",
+        "references": []
+      },
+      {
+        "id": "f064d9c82a99bdb2a7ce6649c0d42d4d0dfa60c6",
+        "type": "FIX",
+        "text": " call aggregation overlay registration for plugins",
+        "references": []
+      },
+      {
+        "id": "7afbdb345e6ea90a8307a8c5acd6dd9f80b5339e",
+        "type": "FIX",
+        "text": " changes-1.42.json: remove duplicates",
+        "references": []
+      },
+      {
+        "id": "45d164c3abfc53c490130ca4e1cd2be161dd29bf",
+        "type": "FIX",
+        "text": " local less parameter names",
+        "references": []
+      },
+      {
+        "id": "1150c2798a7c7830c2e42e051a4e3c79fc3b25ca",
+        "type": "FIX",
+        "text": " preparation for change 1793710(support sequences of add field for simple form), the deleted failing test is without value",
+        "references": []
+      },
+      {
+        "id": "16d1757e4a92fc43bcbfa30fdf4e4eeb87833c2e",
+        "type": "FIX",
+        "text": " sap.ui.dt  fix element overlay destroyed on recreation",
+        "references": []
+      },
+      {
+        "id": "8506ead7fda26a47539883ec96d4a2a3ef36fa60",
+        "type": "FIX",
+        "text": " sap.ui.dt - Mutation Observer QUnit test reformulation",
+        "references": []
+      },
+      {
+        "id": "f02530fb1e8cfc4076d1cbf838bea861a03a4570",
+        "type": "FIX",
+        "text": " sap.ui.dt - Test fixes after DT refactoring",
+        "references": []
+      },
+      {
+        "id": "08b7249b3cb7297bda020e8be418c826cf5b9842",
+        "type": "FIX",
+        "text": " sap.ui.dt - Visibility check of Overlay",
+        "references": []
+      },
+      {
+        "id": "e3574de9dc79658e425b785107151d8f6e434482",
+        "type": "FIX",
+        "text": " sap.ui.dt - compact contextMenu positioning",
+        "references": []
+      },
+      {
+        "id": "4976dcf99d3036d21471ee13103000365a11eb09",
+        "type": "FIX",
+        "text": " sap.ui.dt - contextMenu issue with overlapped overlay",
+        "references": []
+      },
+      {
+        "id": "2633a14b0f2095464ac04258fe8158bac650dcf4",
+        "type": "FIX",
+        "text": " sap.ui.dt - contextMenu menuButton handling and icons",
+        "references": []
+      },
+      {
+        "id": "d9c6d51ed6c6889316d2c9d18ba2ec554992eca6",
+        "type": "FIX",
+        "text": " sap.ui.dt - contextMenu override popover animationDuration",
+        "references": []
+      },
+      {
+        "id": "f33949aa3a61a44d20fdb55727f7145cc9839333",
+        "type": "FIX",
+        "text": " sap.ui.dt - contextmenu overlaps rta-toolbar",
+        "references": []
+      },
+      {
+        "id": "0214a7836155b0d78e99e354e3a2de8ae8db03ce",
+        "type": "FIX",
+        "text": " sap.ui.dt - double scrollbars on safari",
+        "references": []
+      },
+      {
+        "id": "eeb7419409f0b42c7b7e922a13b394cbd06f5c9a",
+        "type": "FIX",
+        "text": " sap.ui.dt - fixed exception for empty aggregations in DT Metadata",
+        "references": []
+      },
+      {
+        "id": "7c4785780a371c78e422703d2d1fbed09e00bc5a",
+        "type": "FIX",
+        "text": " sap.ui.dt - fixed issue with relevant container as boolean value",
+        "references": []
+      },
+      {
+        "id": "d246e9fc8b2acea7a10e75c5cc94619ec72e4387",
+        "type": "FIX",
+        "text": " sap.ui.dt - move smart form groups bug",
+        "references": []
+      },
+      {
+        "id": "bfd445520bfafaf14153ad968a07a867596bb371",
+        "type": "FIX",
+        "text": " sap.ui.dt - open submenu on contextMenu",
+        "references": []
+      },
+      {
+        "id": "2974c1fb6c7275bc2d5543745921705e62ff52a6",
+        "type": "FIX",
+        "text": " sap.ui.dt - removed unused workaround",
+        "references": []
+      },
+      {
+        "id": "cd32420d082c1a6a4851064424928a41b79e7c25",
+        "type": "FIX",
+        "text": " sap.ui.dt - selection with contextMenu",
+        "references": []
+      },
+      {
+        "id": "f521e3bcc9420f2c4323afbfc09e5f571f221e9d",
+        "type": "FIX",
+        "text": " sap.ui.dt - wrong height calculation of exp. contextMenu",
+        "references": []
+      },
+      {
+        "id": "cd7199929921e04715eef6d581e58eb645bcbde4",
+        "type": "FIX",
+        "text": " sap.ui.dt : Dialog handling",
+        "references": []
+      },
+      {
+        "id": "e202a368e1a3ae4aba0dcf190683663b9fa93d9f",
+        "type": "FIX",
+        "text": " sap.ui.dt : fixes renamed or deleted tests",
+        "references": []
+      },
+      {
+        "id": "6e737ea580c18e8397895394e5fd3ab7a23cec90",
+        "type": "FIX",
+        "text": " sap.ui.dt : suppress sync during element modification",
+        "references": []
+      },
+      {
+        "id": "1bb03e71ef6d017bd0774621a6c8b22dbb948237",
+        "type": "FIX",
+        "text": " sap.ui.dt ensure observe components as well",
+        "references": []
+      },
+      {
+        "id": "c5ac680bbb953a2fe89ef9ab812718d220ba1241",
+        "type": "FIX",
+        "text": " sap.ui.dt prevent cut for not movable overlays",
+        "references": []
+      },
+      {
+        "id": "e2a9bb33b85ff068596aca282676135a6d41b8b3",
+        "type": "FIX",
+        "text": " sap.ui.dt register overlays at plugins only when dt is synced",
+        "references": []
+      },
+      {
+        "id": "012b33628fe2749a95df15befd5163769fbb71aa",
+        "type": "FIX",
+        "text": " sap.ui.dt.MiniMenu - various bugfixes \u0026 cleaning (split1)",
+        "references": []
+      },
+      {
+        "id": "3a22a7983cbd21edad601e791227f640fea8667b",
+        "type": "FIX",
+        "text": " sap.ui.dt: Border fixes in HCB theme",
+        "references": []
+      },
+      {
+        "id": "b7eeeb75506baeb21e042552eac6463ff5e2cde4",
+        "type": "FIX",
+        "text": " sap.ui.dt: Consider real domRef for whiteList in MutationObserver",
+        "references": []
+      },
+      {
+        "id": "12d44a406d3110dd12afe1801dcfebce564e6ff6",
+        "type": "FIX",
+        "text": " sap.ui.dt: Delete actions in aggregations",
+        "references": []
+      },
+      {
+        "id": "3483c99ca85b7fad209515c60925f2e0ab4fee5a",
+        "type": "FIX",
+        "text": " sap.ui.dt: DesignTime can now handle UIComponents as RootControl",
+        "references": []
+      },
+      {
+        "id": "65baa47fc74b201115acc2a235d6fef8295242da",
+        "type": "FIX",
+        "text": " sap.ui.dt: ElementOverlay QUnit test failures on IE11 browser",
+        "references": []
+      },
+      {
+        "id": "387581a1c45c8a05698bdd564ec3a66ac0e9aea8",
+        "type": "FIX",
+        "text": " sap.ui.dt: Fixes incident: 1570785945. Failing qunit test in firefox",
+        "references": []
+      },
+      {
+        "id": "c758bfff0c138c0305ad152c0ff97915a3b90454",
+        "type": "FIX",
+        "text": " sap.ui.dt: IE doesn\u0027t support document.contains()",
+        "references": []
+      },
+      {
+        "id": "3b873b3281987956b9fec1ea10866b3473d4be2a",
+        "type": "FIX",
+        "text": " sap.ui.dt: Improve check on SimpleForm move",
+        "references": []
+      },
+      {
+        "id": "c7e386351ba01a0ccf36108622007fac79ab0ef2",
+        "type": "FIX",
+        "text": " sap.ui.dt: MS Edge support for testsuite",
+        "references": []
+      },
+      {
+        "id": "1faa460cb7a9fae125f52c634cba63826e01da60",
+        "type": "FIX",
+        "text": " sap.ui.dt: MiniMenu sometimes not opening",
+        "references": []
+      },
+      {
+        "id": "0cc20dc6b519d9a9cc073516bb41692989733662",
+        "type": "FIX",
+        "text": " sap.ui.dt: Restore element visibility when disabling overlays",
+        "references": []
+      },
+      {
+        "id": "1adcb21046da41e8dda06d9a1293b82a61f8e157",
+        "type": "FIX",
+        "text": " sap.ui.dt: Support dependents aggregation when handling overlays",
+        "references": []
+      },
+      {
+        "id": "4c991ef2f08a8f78d692efb3b1064e346d86eae1",
+        "type": "FIX",
+        "text": " sap.ui.dt: TablesInDesignTime Qunit firefox fix",
+        "references": []
+      },
+      {
+        "id": "8af2e0de0482b5dea85dcff6db03c5d982096b40",
+        "type": "FIX",
+        "text": " sap.ui.dt: added missing parentheses for ElementUtil.isVisible",
+        "references": []
+      },
+      {
+        "id": "307c3a3f4b7e4169ffce1393d8de56e3274a30c3",
+        "type": "FIX",
+        "text": " sap.ui.dt: bugfix domUtil",
+        "references": []
+      },
+      {
+        "id": "d7b9645d8344482f7329493864ac8f8459feb0e3",
+        "type": "FIX",
+        "text": " sap.ui.dt: checks for empty aggregations in DT metadata",
+        "references": []
+      },
+      {
+        "id": "5d3d71cac086a9e3520b0b49bb577d3bd0f0c3ff",
+        "type": "FIX",
+        "text": " sap.ui.dt: fix cloned DomRef with opacity",
+        "references": []
+      },
+      {
+        "id": "d121eb64e1e4326218fb5fd89e0f4c5d2b3278cb",
+        "type": "FIX",
+        "text": " sap.ui.dt: fixed Plugin test failing on firefox",
+        "references": []
+      },
+      {
+        "id": "5c82b700ef65b91762a973ce7adeab0958f8dc2f",
+        "type": "FIX",
+        "text": " sap.ui.dt: fixed TablesInDesignTime Qunit Test",
+        "references": []
+      },
+      {
+        "id": "f87055853bdbbd0725d6648c2c4ec773f6515ed6",
+        "type": "FIX",
+        "text": " sap.ui.dt: include sap.f.DynamicPage title handling in ElementUtil.getLabelForElement()",
+        "references": []
+      },
+      {
+        "id": "65fd5f5e8d2e7a01a3a9d7ac88ec229933db7f58",
+        "type": "FIX",
+        "text": " sap.ui.dt: new overlay-utils functionality",
+        "references": []
+      },
+      {
+        "id": "3a4e90828231fbe874a67fd142f08a68f1a55871",
+        "type": "FIX",
+        "text": " sap.ui.dt: remove \"enabled\" property from sap.ui.dt.Overlay",
+        "references": []
+      },
+      {
+        "id": "e0b6ecf78a6b7190d89cd339d6648f30d3cbc94d",
+        "type": "FIX",
+        "text": " sap.ui.dt:added isVisible function to designtime and visible check",
+        "references": []
+      },
+      {
+        "id": "f17f387c7080a8d2a5593c4c7af6e50c57fe7554",
+        "type": "FIX",
+        "text": " sap.ui.rta - First rename with double-click not working",
+        "references": []
+      },
+      {
+        "id": "3337f07716d4e6f2c177592c8a4ea9516a01db27",
+        "type": "FIX",
+        "text": " sap.ui.rta - Fix simpleform reveal",
+        "references": []
+      },
+      {
+        "id": "42fa4bd1e74d0e01302fc53e846feafe88da014c",
+        "type": "FIX",
+        "text": " sap.ui.rta - Settings dialog don’t open",
+        "references": []
+      },
+      {
+        "id": "6d5cd2af90f83af669a07d34c2fe694938d7c245",
+        "type": "FIX",
+        "text": " sap.ui.rta - contextMenu voter problem",
+        "references": []
+      },
+      {
+        "id": "7367a46fee7e2fdd63ac59c538e103e4260b156b",
+        "type": "FIX",
+        "text": " sap.ui.rta - simpleForm move issue",
+        "references": []
+      },
+      {
+        "id": "0e268ced8ad40868702ca1dac74be86d133e90d5",
+        "type": "FIX",
+        "text": " sap.ui.rta: Paste without cut doesn\u0027t cause an error anymore",
+        "references": []
+      },
+      {
+        "id": "b0a65978d503ea454dedf60842d8c7f2befe02fd",
+        "type": "FIX",
+        "text": " sap.ui.rta: Test fixes for Internet Explorer",
+        "references": []
+      },
+      {
+        "id": "b6185cf9af8d2699772c231e4963efda25a49cd5",
+        "type": "FIX",
+        "text": " sap.ui.rta: fixed reveal for elements that are not Controls",
+        "references": []
+      },
+      {
+        "id": "894007b038ecde7b8dbe33ee1b75793acdfd2c24",
+        "type": "FIX",
+        "text": " sap.ui.rta: prevent remove action when pressing DELETE button if it\u0027s unavailable",
+        "references": []
+      },
+      {
+        "id": "758faee031b94be122f679d9a34219f98450abf0",
+        "type": "FIX",
+        "text": " simpleform getIndex",
+        "references": []
+      },
+      {
+        "id": "f7b7d2b52bdb90dcb8ce0c6be2403d35c07aaaee",
+        "type": "FIX",
+        "text": ": DT - Context menu border correction",
+        "references": []
+      },
+      {
+        "id": "3e4fc2be35157cb9e30ae7b7f5d5b051d7f9d54f",
+        "type": "FIX",
+        "text": ": DT - New Selection API",
+        "references": []
+      },
+      {
+        "id": "38db6be4089735b2846053a9c2a2a954a3460c35",
+        "type": "FIX",
+        "text": ": DT - avoid flickering on drag and drop",
+        "references": []
+      },
+      {
+        "id": "94378072bdb35eaccc827053b2967eece0a99028",
+        "type": "FIX",
+        "text": ": DT - only add scrollbar if overflow scroll or auto",
+        "references": []
+      },
+      {
+        "id": "4cdbc6b4237559e6bc093995082a0268f6906c59",
+        "type": "FIX",
+        "text": ": RTA - improve visibility of MiniMenu",
+        "references": []
+      },
+      {
+        "id": "0791344128e695d4e71ee3a44461630fb7c146f2",
+        "type": "FIX",
+        "text": ": sap.ui.dt: Context menu fix",
+        "references": []
+      },
+      {
+        "id": "adb3f30d2ec42c8f04e77d692b85b075ddbad6cd",
+        "type": "FIX",
+        "text": ": simpleform fix editable titles (DT-part)",
+        "references": []
+      },
+      {
+        "id": "c73b54e406abb0cd98ece89bf007da59ec003402",
+        "type": "FIX",
+        "text": "Remove test dependencies to sap.ui.comp",
+        "references": []
+      },
+      {
+        "id": "6876176aa7dfe5a960fa89a3baa0bde1fc5596f1",
+        "type": "FIX",
+        "text": "sap.ui.dt - Context menu closes when selection changes",
+        "references": []
+      },
+      {
+        "id": "dc8ad7ea861a67f3052b42b41853d660f54f3cb2",
+        "type": "FIX",
+        "text": "sap.ui.dt - Context menu closes when selection changes",
+        "references": []
+      },
+      {
+        "id": "03928b0dc95e0ac26812ceff48ad1ffa26efbdfd",
+        "type": "FIX",
+        "text": "sap.ui.dt - ElementOverlayRTL test fix for IE + Edge",
+        "references": []
+      },
+      {
+        "id": "fe3468799aabf1ed39dde3b63f8bf3a85ed06183",
+        "type": "FIX",
+        "text": "sap.ui.dt - Expanded compact menu is now equal to context menu",
+        "references": []
+      },
+      {
+        "id": "e33fe2dc012aef0e7d7c5fc6f1dbf59e43c98ba1",
+        "type": "FIX",
+        "text": "sap.ui.dt - Issue with RTL overlay positioning",
+        "references": []
+      },
+      {
+        "id": "105941b9a1629fd036a7e07a7481ae225ce744b5",
+        "type": "FIX",
+        "text": "sap.ui.dt - Metadata propagation error",
+        "references": []
+      },
+      {
+        "id": "07e3739021da31d19b355d8dce265cead1dae5e2",
+        "type": "FIX",
+        "text": "sap.ui.dt - Metadata propagation with multiple propagate functions",
+        "references": []
+      },
+      {
+        "id": "dc76a1bd56b8b1a2cfb55d2a407e168d16d39607",
+        "type": "FIX",
+        "text": "sap.ui.dt - MiniMenu is now always placed correctly on touch screen",
+        "references": []
+      },
+      {
+        "id": "f8ba865568e51cf165243d260c217bb369d1b5bf",
+        "type": "FIX",
+        "text": "sap.ui.dt - Removed overlays are still part of the selection",
+        "references": []
+      },
+      {
+        "id": "b71479bc898d27a2490385c58535f68d238096b3",
+        "type": "FIX",
+        "text": "sap.ui.dt - Root elements in DT can become invalid on app close",
+        "references": []
+      },
+      {
+        "id": "b7bf7d39f3562666bdc2d5c776287a86b816962a",
+        "type": "FIX",
+        "text": "sap.ui.dt - ScrollContainer Z-Index calculation fix",
+        "references": []
+      },
+      {
+        "id": "95806c7cda3dd1f2de869089628e6ea75715dea3",
+        "type": "FIX",
+        "text": "sap.ui.dt - SelectionManager selection mode discrepancy with DT",
+        "references": []
+      },
+      {
+        "id": "e9f576ebdf6e28af067c89313a2703139b95013e",
+        "type": "FIX",
+        "text": "sap.ui.dt: Fix for Drag\u0026Drop cursor in EDGE Browser",
+        "references": []
+      },
+      {
+        "id": "d06d24845a1e4ee6ae2c2ce55dbd95f397baeaa7",
+        "type": "FIX",
+        "text": "sap.ui.dt: QUnit test fix - CSS filter not supported by IE",
+        "references": []
+      },
+      {
+        "id": "92a3a8f624fdadaad50402a1eac6b23a4dde2f0f",
+        "type": "FIX",
+        "text": "sap.ui.rta - Aggregation binding Overlay movable when not editable",
+        "references": []
+      },
+      {
+        "id": "bcecb61ee50e6ce23d8987147c2048e87e2fa260",
+        "type": "FIX",
+        "text": "sap.ui.rta - Handling of sync failed event + overlay creation error",
+        "references": []
+      },
+      {
+        "id": "4f1c6d67dc13346a4ced9abfc0d87fde43ae929c",
+        "type": "FIX",
+        "text": "sap.ui.rta - Retrieve control name with inter-library inheritance",
+        "references": []
+      },
+      {
+        "id": "f6d2fbc4cf74df840157743e6b780ce9bf9d61df",
+        "type": "FIX",
+        "text": "sap.ui.rta: DT Metadata ignore() called for destroyed element",
+        "references": []
+      },
+      {
+        "id": "bb0ad931dfbc8ebb004d57749bd68841ffdc7b1e",
+        "type": "FIX",
+        "text": "sap.ui.rta: isEditable check only for Overlays with DT Metadata",
+        "references": []
+      },
+      {
+        "id": "590c934741e977aa9877caa17681342df57a0aac",
+        "type": "FIX",
+        "text": " DOMUtil.getSize to also support transition style on the control",
+        "references": []
+      }
+    ]
+  }
+}

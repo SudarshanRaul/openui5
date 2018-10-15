@@ -1,0 +1,505 @@
+{
+  "1.31.0": {
+    "date": "October 2018",
+    "notes": [
+      {
+        "id": "9e27e3efb4b38c34216e6babb798dcc341ce2903",
+        "type": "FEATURE",
+        "text": " Card",
+        "references": []
+      },
+      {
+        "id": "4bab8534e0625303b3d991a703ff6e51cb577f11",
+        "type": "FEATURE",
+        "text": " Card Implementation",
+        "references": []
+      },
+      {
+        "id": "0f0514fcf72755574c43daed4857271f207d92b3",
+        "type": "FEATURE",
+        "text": " DynamicPage: backgroundDesign property added",
+        "references": []
+      },
+      {
+        "id": "689a818c2583b300739affd752157b52603a7117",
+        "type": "FEATURE",
+        "text": " ManagedObject(-Metadata): aggregation forwarding",
+        "references": []
+      },
+      {
+        "id": "48fdf887d83272458adb3b50c515d45d3ba76e1f",
+        "type": "FEATURE",
+        "text": " SemanticPage: Added new titleAreaShrinkRatio property",
+        "references": []
+      },
+      {
+        "id": "e9f5503fc817c53655fa357e304ae61c9c394c5d",
+        "type": "FEATURE",
+        "text": " SemanticPage: Added sapFSemanticPageAlignContent CSS class",
+        "references": []
+      },
+      {
+        "id": "c02dacbbc2973178a2e7fab3642da5c4d392fe6a",
+        "type": "FEATURE",
+        "text": " SemanticPage: Added titleSnapped/ExpandedHeading aggregations",
+        "references": []
+      },
+      {
+        "id": "9656793fc72549dd07b3144ed27012ae2e1a79be",
+        "type": "FEATURE",
+        "text": " f.DynamicPage, uxap.ObjectPageLayout: Collapse/Pin changed",
+        "references": []
+      },
+      {
+        "id": "7be8204af9ea68333758887dedba5e31cd9a27f0",
+        "type": "FEATURE",
+        "text": " f.FlexibleColumnLayout: Reveal effect implemented",
+        "references": []
+      },
+      {
+        "id": "cfe110ccb1fe54f48c93b6d37316e3b7a9c7ab1d",
+        "type": "FEATURE",
+        "text": " f.SemanticPage: new aggregation and property introduced.",
+        "references": []
+      },
+      {
+        "id": "311dc6ccb1eb5b5f3ea40323c051426ebc97bcc0",
+        "type": "FEATURE",
+        "text": " sap.f.Avatar: Usage with LightBox enabled",
+        "references": []
+      },
+      {
+        "id": "47e90f52b80cd79417ca2ff45daf22d533505762",
+        "type": "FEATURE",
+        "text": " sap.f.Avatar: new control added",
+        "references": []
+      },
+      {
+        "id": "cfeca2abd550c9b0c837a0feb71628f1cded282d",
+        "type": "FEATURE",
+        "text": " sap.f.DynamicPage - toggleHeaderOnTitleClick property introduced",
+        "references": []
+      },
+      {
+        "id": "46f645da39e7e180c55822dbd4b2825a0750d76e",
+        "type": "FEATURE",
+        "text": " sap.f.DynamicPage: Added class for content alignment",
+        "references": []
+      },
+      {
+        "id": "0d9fbe1ed8db027bb5c49d94d00451d870c5afe8",
+        "type": "FEATURE",
+        "text": " sap.f.DynamicPage: Visual indicator for expand/collapse added",
+        "references": []
+      },
+      {
+        "id": "469a2111baa7bbdd036152fe381c02a1c8a394b3",
+        "type": "FEATURE",
+        "text": " sap.f.DynamicPageTitle: Added new property areaShrinkRatio",
+        "references": []
+      },
+      {
+        "id": "21def4ea80c5b014b2ff4b57ec9afda7aa10da36",
+        "type": "FEATURE",
+        "text": " sap.f.DynamicPageTitle: New aggregation navigationActions introduced",
+        "references": []
+      },
+      {
+        "id": "3384a42df7e24643fa3ccc4bd25b81b531205314",
+        "type": "FEATURE",
+        "text": " sap.f.DynamicPageTitle: New breadcrumbs aggregation added",
+        "references": []
+      },
+      {
+        "id": "5f8acc5fe57840c5549e1b0798715bb2d4269d98",
+        "type": "FEATURE",
+        "text": " sap.f.DynamicPageTitle: Responsiveness and prioritization enabled.",
+        "references": []
+      },
+      {
+        "id": "48c7cdd7b75376feed6da14030da7ec79bf9be04",
+        "type": "FEATURE",
+        "text": " sap.f.FlexibleColumnLayout: New property added",
+        "references": []
+      },
+      {
+        "id": "5c642bfe3b9771694c96d4861f83bf0a67a25837",
+        "type": "FEATURE",
+        "text": " sap.f.FlexibleColumnLayout: enable the setting of a layout through the API",
+        "references": []
+      },
+      {
+        "id": "faf3438651cb89c84fa520eefd91cf0787e77c64",
+        "type": "FEATURE",
+        "text": " sap.f.FlexibleColumnLayout: implement screen reader support",
+        "references": []
+      },
+      {
+        "id": "6d5bf5b37f34964be6b00eceeddc128cf7fe8782",
+        "type": "FEATURE",
+        "text": " sap.f.SemanticPage: Draft indicator position is changed",
+        "references": []
+      },
+      {
+        "id": "bfabed4d4e9c20bbce7486a01bc24dd5fded5411",
+        "type": "FEATURE",
+        "text": " sap.f.SemanticPage: saveAsTileAction aggregation added",
+        "references": []
+      },
+      {
+        "id": "1130ca4a29482881d350e2416c2da6701e74c364",
+        "type": "FEATURE",
+        "text": " sap.f.semantic.SemanticPage: Edit text action is added.",
+        "references": []
+      },
+      {
+        "id": "8ae309fe9632a09925127c7394fd8b176b6f1be2",
+        "type": "FEATURE",
+        "text": " sap.f.semantic.SemanticPage: New control added",
+        "references": []
+      },
+      {
+        "id": "ccf5dac1741b6d3544468d9fb10a7dea29737c72",
+        "type": "FEATURE",
+        "text": " sap.f.semantic.SemanticPage: titleBreadcrumbs aggregation introduced",
+        "references": []
+      },
+      {
+        "id": "875d2bad7037a6965485f58e9b061eb38358b779",
+        "type": "FEATURE",
+        "text": " sap.f: Shared theme configuration for test pages",
+        "references": []
+      },
+      {
+        "id": "a346d583dbd6ed7d10a523fcd53be93326c65f33",
+        "type": "FEATURE",
+        "text": " sap.m.DynamicPageTitle: Introduced stateChange event",
+        "references": []
+      },
+      {
+        "id": "8f65b118d203972e278a6159d22c0d21d898bef7",
+        "type": "FEATURE",
+        "text": " sap.ui.core.routing: \u0027beforeMatched\u0027 and \u0027beforeRouteMatched\u0027 events",
+        "references": []
+      },
+      {
+        "id": "35847319218700ad82e5eef6de42d22474685df9",
+        "type": "FIX",
+        "text": " Corrected shared-config.js path",
+        "references": []
+      },
+      {
+        "id": "7e5a49c94c7eb0692725a168476d4b6ae90232cb",
+        "type": "FIX",
+        "text": " DynamicPage: Explored sample updated",
+        "references": []
+      },
+      {
+        "id": "7b0230f2240b84a2c7ea4918e2470d62d7929053",
+        "type": "FIX",
+        "text": " DynamicPage: Initially snapped header excluded from tab chain",
+        "references": []
+      },
+      {
+        "id": "d7400365e5ba40288419703312251a8603a11d3e",
+        "type": "FIX",
+        "text": " DynamicPage: Missing Expand Header icon is fixed",
+        "references": []
+      },
+      {
+        "id": "832e95152bb3b0821fd6f6004321ef24509f201f",
+        "type": "FIX",
+        "text": " DynamicPageTitle: Heading ARIA reference added",
+        "references": []
+      },
+      {
+        "id": "188c53d214aebefee46fe417c41e8e0dac50fd7e",
+        "type": "FIX",
+        "text": " DynamicPageTitle: top area visibility fixed",
+        "references": []
+      },
+      {
+        "id": "2cadbbbd92e87b4625dfdb5372d7a4b0ae62f84d",
+        "type": "FIX",
+        "text": " FlexibleColumnLayout: Fixed disappearing of navigation actions",
+        "references": []
+      },
+      {
+        "id": "2e88279730e9b6ea061506c1e64517e6de284b11",
+        "type": "FIX",
+        "text": " FlexibleColumnLayout: Fixed suspend and resume resize handlers",
+        "references": []
+      },
+      {
+        "id": "bed3d6d5d26b256c85bd3e476173616092f866e5",
+        "type": "FIX",
+        "text": " FlexibleColumnLayout: LocalBusyIndicator\u0027s z-index is fixed",
+        "references": []
+      },
+      {
+        "id": "539ebc3b7ab19643c2dc3c7ccb455852b69d802c",
+        "type": "FIX",
+        "text": " FlexibleColumnLayout: Not showing arrows in Demo App is fixed",
+        "references": []
+      },
+      {
+        "id": "701cfbfaca90e150ef08c24e1399b364237a235e",
+        "type": "FIX",
+        "text": " FlexibleColumnLayout: Slider visibility fixed",
+        "references": []
+      },
+      {
+        "id": "af6ce1472b964b642ada273beafd1fa68ae62d1b",
+        "type": "FIX",
+        "text": " FlexibleColumnLayout: Updated test page",
+        "references": []
+      },
+      {
+        "id": "6e5c4af6172369f245eebb535ec1fbf3a0ae2ff4",
+        "type": "FIX",
+        "text": " QUnit Designtime Library tests in Firefox",
+        "references": []
+      },
+      {
+        "id": "7f92b122f7b24493a8bdeccb73899ec335c82839",
+        "type": "FIX",
+        "text": " SemanticPage: Content padding CSS classes are now passed",
+        "references": []
+      },
+      {
+        "id": "7afbdb345e6ea90a8307a8c5acd6dd9f80b5339e",
+        "type": "FIX",
+        "text": " changes-1.42.json: remove duplicates",
+        "references": []
+      },
+      {
+        "id": "c9d342d0204d26773e8af1934b7ba4caab00b749",
+        "type": "FIX",
+        "text": " f.DynamicPage: Ensure only own scroll handlers are detached",
+        "references": []
+      },
+      {
+        "id": "a49e9769aaa6510372b30f5b27402f4256b9ca32",
+        "type": "FIX",
+        "text": " f.DynamicPage: Expand/Collapse header button tooltips added",
+        "references": []
+      },
+      {
+        "id": "e03de25921627bc700badc6914e833a413484729",
+        "type": "FIX",
+        "text": " f.DynamicPage: Header expanding in non-scrollable area changed",
+        "references": []
+      },
+      {
+        "id": "8b9b1041021589dddcbbe9169298d7342464d851",
+        "type": "FIX",
+        "text": " f.FlexibleColumnLayout: suspending/resuming of ResizeHander fixed",
+        "references": []
+      },
+      {
+        "id": "1508874cb1fe7fcf246635f49ed5745e2f694000",
+        "type": "FIX",
+        "text": " sap.f.Avatar: DetailBox opens when avatar used with list binding",
+        "references": []
+      },
+      {
+        "id": "4a4b7bfb7ae5568ea7b3c67454cbcb4ad76dd629",
+        "type": "FIX",
+        "text": " sap.f.Avatar: change sample\u0027s images",
+        "references": []
+      },
+      {
+        "id": "123f231d3f11508cbf8e2383b0eee124fa9793d0",
+        "type": "FIX",
+        "text": " sap.f.Avatar: src property is now escaped",
+        "references": []
+      },
+      {
+        "id": "3648ffc86f31721596d4345047b51e3b8753d06b",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage fitContent property added",
+        "references": []
+      },
+      {
+        "id": "c0f9749e701dd811be7e895c23373023a36c39d5",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Bounce scrolling on iOS Safari prevented",
+        "references": []
+      },
+      {
+        "id": "58e64e9d466c69d51ff49bdc9c48e2d70dae6433",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Expand header button tabbing order fixed",
+        "references": []
+      },
+      {
+        "id": "ce322d086b774416f38ca94cf2f1451843e92445",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Inactive focusable header title fixed",
+        "references": []
+      },
+      {
+        "id": "336abe253cd74d41c08ff303d4b650588e25bfcc",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Initially snapped header behavior fixed",
+        "references": []
+      },
+      {
+        "id": "00a945c9ba0b7ec3d680e5b0c75b7238b7a075d2",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Missing documentation fixed",
+        "references": []
+      },
+      {
+        "id": "7f96c2bb1a3312c9a072d65e3add61c9da82005e",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Pin button visibility corrected",
+        "references": []
+      },
+      {
+        "id": "ebdf01ba15a732373460b5e2f13c1b10a8266e97",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Pointer cursor on passive controls in title fix",
+        "references": []
+      },
+      {
+        "id": "4d3c8d2da49926009d79122819c045f76c7eaae8",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Scrollbar update condition fixed",
+        "references": []
+      },
+      {
+        "id": "c34f38e136c8ebca7551415c055d35ba43390ee0",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: Visual indicator visibility corrected",
+        "references": []
+      },
+      {
+        "id": "df9e6107fdac0409dd18abff3c2f2f080c514c4f",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: corrected width of the footer with custom sap.m.Bar",
+        "references": []
+      },
+      {
+        "id": "7ef3328e729a4f35b75b36ff6a3bc146cf14f058",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: footer animation corrected",
+        "references": []
+      },
+      {
+        "id": "c79ffc313640a5ba4674328bd66ebfa0532d1f74",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: header visiblitiy shouldn`t change if header is pinned fixed",
+        "references": []
+      },
+      {
+        "id": "5adb22326bc4ae09e052f511895319a65862f8af",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: scrollbar offset measurement in headerAlwaysExpanded mode updated",
+        "references": []
+      },
+      {
+        "id": "193b15e9e7d1d365f516a58420fb5fa97710001a",
+        "type": "FIX",
+        "text": " sap.f.DynamicPage: toggleHeaderOnTitleClick initial state fixed",
+        "references": []
+      },
+      {
+        "id": "6d621cbbbd0c1d9d374876a1ab74c416d8e855bd",
+        "type": "FIX",
+        "text": " sap.f.DynamicPageHeader: Fixed toggle header indicator size",
+        "references": []
+      },
+      {
+        "id": "6cabd559ace24f7c307f4f8270e8e77879751d31",
+        "type": "FIX",
+        "text": " sap.f.DynamicPageTitle border-bottom fixed",
+        "references": []
+      },
+      {
+        "id": "a31c44d645a7bba7ef9d8391a166b65f53200395",
+        "type": "FIX",
+        "text": " sap.f.DynamicPageTitle: Clone now includes actions",
+        "references": []
+      },
+      {
+        "id": "edcadd1fde1d5ccfe0692306e313963f49baa06a",
+        "type": "FIX",
+        "text": " sap.f.DynamicPageTitle: Enable main actions moving in RTA",
+        "references": []
+      },
+      {
+        "id": "b95aebfadbc05e587b6a19c18a2aa96cbf121831",
+        "type": "FIX",
+        "text": " sap.f.DynamicPageTitle: Fixed actions dragging in RTA",
+        "references": []
+      },
+      {
+        "id": "79962d2a1888a54f39a0607fd22557adf3d544ac",
+        "type": "FIX",
+        "text": " sap.f.DynamicPageTitle: Toolbar bottom border repaired",
+        "references": []
+      },
+      {
+        "id": "d25d24f649d3e1fe801df2807bacd1c7aa92d992",
+        "type": "FIX",
+        "text": " sap.f.DynamicPageTitle: aria-labelledby now properly updated",
+        "references": []
+      },
+      {
+        "id": "a1c46cc22e724a6bb77fbbe8e8f0fa7ac70f50d6",
+        "type": "FIX",
+        "text": " sap.f.FlexibleColumnLayout: Arrow buttons aligned with VD spec",
+        "references": []
+      },
+      {
+        "id": "18b53c9de2a951bf433713bb0772c722a2ff38e5",
+        "type": "FIX",
+        "text": " sap.f.FlexibleColumnLayout: Fixed responsiveness of sample",
+        "references": []
+      },
+      {
+        "id": "cc418b79917f88b637532eb468ccdf3556f1373f",
+        "type": "FIX",
+        "text": " sap.f.FlexibleColumnLayout: Focus is now reapplied",
+        "references": []
+      },
+      {
+        "id": "859f983071e3e3255d74bdb5fd1b8b838b9c422a",
+        "type": "FIX",
+        "text": " sap.f.FlexibleColumnLayout: Sample adjusted",
+        "references": []
+      },
+      {
+        "id": "8ba48d84d51c9c0af9945b0fbf303d75a5922a82",
+        "type": "FIX",
+        "text": " sap.f.dynamicPage: fixed ScrollContainer in Designtime",
+        "references": []
+      },
+      {
+        "id": "88b4380fe8cb7e1939f55a6b6cc5e7ddcf4eef36",
+        "type": "FIX",
+        "text": " sap.f: wrong css selector preffixes sapF instead of sapM fixed",
+        "references": []
+      },
+      {
+        "id": "7baefb3c99206edbfbd337e5b556e9ee5ac8f703",
+        "type": "FIX",
+        "text": " sap.m.Avatar: DetailBox aggregation lifecycle improvement",
+        "references": []
+      },
+      {
+        "id": "083a236ff2051322e15e089c0f94ed0c6f11ca46",
+        "type": "FIX",
+        "text": " sap.m.DynamicPageTitle: Fixed expand button outline in IE",
+        "references": []
+      },
+      {
+        "id": "55d98ab497bf5d25a8482cb124ce995a7f421864",
+        "type": "INETRNAL",
+        "text": "[FIX] tutorial.fiori2: Updated documentation link",
+        "references": []
+      }
+    ]
+  }
+}

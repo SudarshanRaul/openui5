@@ -1,0 +1,13 @@
+{
+  "1.31.0": {
+    "date": "October 2018",
+    "notes": [
+      {
+        "id": "1afee0ed7235374019601b6f0b246b8d789df8d9",
+        "type": "FEATURE",
+        "text": " sap.ui.suite: Shared configuration for test pages",
+        "references": []
+      }
+    ]
+  }
+}

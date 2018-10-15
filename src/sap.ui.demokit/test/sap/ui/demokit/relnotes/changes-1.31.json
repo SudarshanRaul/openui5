@@ -1,0 +1,265 @@
+{
+  "1.31.0": {
+    "date": "October 2018",
+    "notes": [
+      {
+        "id": "a77f33b991a3ab21e9f2949f527fccc182ddf97e",
+        "type": "FIX",
+        "text": " Demokit/Expl.App - code section downloads fixed\"",
+        "references": []
+      },
+      {
+        "id": "9a735cc95ef9c7eefe805013c1a4d2189a01b48b",
+        "type": "FEATURE",
+        "text": "  Demokit.Explored App – Code Section Improvements",
+        "references": []
+      },
+      {
+        "id": "e9f341ce4cff1c152df3ab41fbbb6bcb6fae1c83",
+        "type": "FEATURE",
+        "text": " Core.IconPool: Icon font updated to version 3.7 with 1 new icon",
+        "references": []
+      },
+      {
+        "id": "8506a320691046339722c8ddf06afc260f410a82",
+        "type": "FEATURE",
+        "text": " Demo Kit: new demo apps landing page",
+        "references": []
+      },
+      {
+        "id": "be1a665acf73bdd0c34cf13d0bf43dac6738107c",
+        "type": "FEATURE",
+        "text": " Demokit / HCP Feedback Service integration",
+        "references": []
+      },
+      {
+        "id": "b01a1d037e8925f28862f7fd7241361229a5ad9b",
+        "type": "FEATURE",
+        "text": " Demokit Controls Section - commons and ux3 deprecation - openui5",
+        "references": []
+      },
+      {
+        "id": "8bbd202d129907cfd247789e72c516cd2463ac9c",
+        "type": "FEATURE",
+        "text": " Demokit tree expand collapse buttons changed position",
+        "references": []
+      },
+      {
+        "id": "89ad7deb6082a62cb66a7191324fa91cc8d2ce88",
+        "type": "FEATURE",
+        "text": " Demokit/Explored App – Code Section Improvements",
+        "references": []
+      },
+      {
+        "id": "985097c5aa57a87f8146f3e656df123143fb450b",
+        "type": "FEATURE",
+        "text": " Explored App: Added \"Data Visualization\" Category",
+        "references": []
+      },
+      {
+        "id": "2e2e1f1f728863546468824de8ad906f724646a4",
+        "type": "FEATURE",
+        "text": " IconExplorer: search by tags enabled",
+        "references": []
+      },
+      {
+        "id": "b0fd891d0e36a241156b3b58ab383d7ec43a7d7c",
+        "type": "FEATURE",
+        "text": " Infra: removal of deprecated sap_goldreflection theme",
+        "references": []
+      },
+      {
+        "id": "b3f6064f3aa032ad88742c55abdfd3631e098ae4",
+        "type": "FEATURE",
+        "text": " Introduce demokit ExploredApp example code highlighting",
+        "references": []
+      },
+      {
+        "id": "048613f2ea00bd1f1314f121e9147e4e022994c5",
+        "type": "FEATURE",
+        "text": " New Theme Library: sap_belize",
+        "references": []
+      },
+      {
+        "id": "69d1b963154b74398f046d8ac6b72d32cb1164a0",
+        "type": "FEATURE",
+        "text": " New Theme: sap_belize_hcb",
+        "references": []
+      },
+      {
+        "id": "ff90a862d41b476aca1dd8a916d5acca56340ca0",
+        "type": "FEATURE",
+        "text": " New Theme: sap_belize_hcw",
+        "references": []
+      },
+      {
+        "id": "5c12096d50367e6fcb7e629a8d20889c5a2a608e",
+        "type": "FEATURE",
+        "text": " New Theme: sap_belize_plus",
+        "references": []
+      },
+      {
+        "id": "23959d181f477d89f79c8638010b9f2897bfd255",
+        "type": "FEATURE",
+        "text": " new demo apps landing page",
+        "references": []
+      },
+      {
+        "id": "96a2e84b1a5cd6c84d78bafc7b436bab7b689226",
+        "type": "FEATURE",
+        "text": " sap.m.LightBox: Initial implementation.",
+        "references": []
+      },
+      {
+        "id": "b8f80617fd884a34fc17b7dc89f3257c6c88f793",
+        "type": "FEATURE",
+        "text": " sap.ui.core.Icon/IconPool: icon font is updated to version 3.2 with 11 new icons",
+        "references": []
+      },
+      {
+        "id": "7363858d48c2b2590651add17763f1af05fc9cbd",
+        "type": "FEATURE",
+        "text": " sap.ui.demokit.CodeViewer: Improve readability of Code samples",
+        "references": []
+      },
+      {
+        "id": "7bbd40e7ea84bfdb4161044b8002df4b46aafc17",
+        "type": "FEATURE",
+        "text": " sap.ui.demokit.CodeViewer: Introduce line numbering",
+        "references": []
+      },
+      {
+        "id": "937b7693aa6333dd25da8590490a477a514fe9e7",
+        "type": "FEATURE",
+        "text": " sap.ui.demokit.CodeViewer: enable text selection on touch enabled devices",
+        "references": []
+      },
+      {
+        "id": "2ac274b508c21eb43d31ea7b13301c4ee7611b77",
+        "type": "FEATURE",
+        "text": " sap.ui.demokit.explored: add belize plus in the options",
+        "references": []
+      },
+      {
+        "id": "62684e83c2f9101d36c98a32e5ce3b9deeb9ef52",
+        "type": "FIX",
+        "text": " Api Reference Tree clipping issue",
+        "references": []
+      },
+      {
+        "id": "5d46c13e574b27c7c999d95cd42c664f5f506e86",
+        "type": "FIX",
+        "text": " Code samples in Explored app are now displayed with monospace font",
+        "references": []
+      },
+      {
+        "id": "0c0b78037846b38f7392eee3fab7d9a56a1b5db8",
+        "type": "FIX",
+        "text": " Demokit / Demo Apps: remove unneeded scrollbar",
+        "references": []
+      },
+      {
+        "id": "6f6631379db0939d52d60be6d0a3490eec916852",
+        "type": "FIX",
+        "text": " Demokit About dialog is all visible now in small resolutions",
+        "references": []
+      },
+      {
+        "id": "f1ff002794698e0aaa6abeacbe35791cc4cee793",
+        "type": "FIX",
+        "text": " Demokit Feedback client fonts in IE",
+        "references": []
+      },
+      {
+        "id": "f3e3113be4442905c645ee048ba130036926a05d",
+        "type": "FIX",
+        "text": " Demokit feedback context",
+        "references": []
+      },
+      {
+        "id": "b29b06a7d20daa4093688a613692ff35d9d3d3c4",
+        "type": "FIX",
+        "text": " Demokit missing tree due to node without ref",
+        "references": []
+      },
+      {
+        "id": "b9b47c1eb764d3fed52bfed63ed0577b11dfb81d",
+        "type": "FIX",
+        "text": " Demokit tree filter placeholder value change",
+        "references": []
+      },
+      {
+        "id": "536c4d442790de2a92bdfa5a5f01c676ccfe4ee0",
+        "type": "FIX",
+        "text": " Demokit/Expl.App - code section downloads fixed",
+        "references": []
+      },
+      {
+        "id": "ea34023657b41034b5bce2973ac4c5be4e926092",
+        "type": "FIX",
+        "text": " Explored App IconTabBar should ignore hover event",
+        "references": []
+      },
+      {
+        "id": "95caf3d78512e8e22516633076945ad97d4b1020",
+        "type": "FIX",
+        "text": " Explored App: Tutorial description is \"undefined\"",
+        "references": []
+      },
+      {
+        "id": "62f9cd0d55d859ecf0230910c939959e64826a09",
+        "type": "FIX",
+        "text": " Explored App: better Search Tag creation for list search",
+        "references": []
+      },
+      {
+        "id": "2f8b7af09800d04250f9c97d00b92122e405f015",
+        "type": "FIX",
+        "text": " Explored app: Samples tab \u003ccode\u003e tag visualization corrected",
+        "references": []
+      },
+      {
+        "id": "8f1702651d7a76419afc276b79d9af0cacf50ac1",
+        "type": "FIX",
+        "text": " Navigating back does not update the demokit tree",
+        "references": []
+      },
+      {
+        "id": "c0ef4bbd554f7ad536601d2ef400d017eab4c25f",
+        "type": "FIX",
+        "text": " RTA - Incorrect selectable overlays in OpenUI5 Explored",
+        "references": []
+      },
+      {
+        "id": "9666a6b53cb1acd54d967d2c0e8384e95c171064",
+        "type": "FIX",
+        "text": " Remove IE9/IE10 specific code from sap.ui.core and sap.ui.demokit",
+        "references": []
+      },
+      {
+        "id": "a80020352e503f31decb13b3eeeb67ba4bdb51c0",
+        "type": "FIX",
+        "text": " SDK: accept hash for LICENSE.txt",
+        "references": []
+      },
+      {
+        "id": "452e3060eaef06be2cac9ee3a166f217527f2551",
+        "type": "FIX",
+        "text": " avoid endless polling on sap.ui.unified.FileUploader demokit page",
+        "references": []
+      },
+      {
+        "id": "7afbdb345e6ea90a8307a8c5acd6dd9f80b5339e",
+        "type": "FIX",
+        "text": " changes-1.42.json: remove duplicates",
+        "references": []
+      },
+      {
+        "id": "f228e95502e0156b1390f0dbfa835a32f2f652a5",
+        "type": "FIX",
+        "text": " developerMode for RTA in exploredApp",
+        "references": []
+      }
+    ]
+  }
+}

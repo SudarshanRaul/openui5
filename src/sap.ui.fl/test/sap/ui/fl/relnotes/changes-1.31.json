@@ -1,0 +1,505 @@
+{
+  "1.31.0": {
+    "date": "October 2018",
+    "notes": [
+      {
+        "id": "6449fe09ea393eedea54d511f717244968df803f",
+        "type": "FEATURE",
+        "text": " Component: Add async create() / load() API",
+        "references": []
+      },
+      {
+        "id": "6571a0f605cb1d1c1e2c118d7879f543ff3db7a6",
+        "type": "FEATURE",
+        "text": " LRep CUSTOMER_BASE layer for flexibility",
+        "references": []
+      },
+      {
+        "id": "c748d71255239119703f11bb214e9fee1f0eef81",
+        "type": "FEATURE",
+        "text": " Move sap.ui.fl library from internal sapui5.runtime to OpenUI5",
+        "references": []
+      },
+      {
+        "id": "d017482f59e8454de0a5e4445ef53d068c39dace",
+        "type": "FEATURE",
+        "text": " VariantManagement control",
+        "references": []
+      },
+      {
+        "id": "e27f8f6254d62ee43d8cc308708d39c82432e39b",
+        "type": "FEATURE",
+        "text": " VariantManagement: design enhancements",
+        "references": []
+      },
+      {
+        "id": "099816fdf40b1711ad51ce0e5fb72448d6c7b6fc",
+        "type": "FEATURE",
+        "text": " VariantManagement: show/hide variant list footer",
+        "references": []
+      },
+      {
+        "id": "35353b36fa6c5528b550544b5503f095c2c62883",
+        "type": "FEATURE",
+        "text": " changeHander registration can be done in one file per control",
+        "references": []
+      },
+      {
+        "id": "dc38f0cac1a88ff67f9735d3b64c368d144aeb5a",
+        "type": "FEATURE",
+        "text": " fl.VariantManagement: prohibit the deletion of the last entry",
+        "references": []
+      },
+      {
+        "id": "37e7d8eb70345bd742f36e17954c583f3d28d601",
+        "type": "FEATURE",
+        "text": " sap.ui.fl Support content security policy",
+        "references": []
+      },
+      {
+        "id": "e6a8280f72bf32dbf73610caf557b225df589772",
+        "type": "FEATURE",
+        "text": " sap.ui.fl applies changes when a control is created instead of when the view is processed.",
+        "references": []
+      },
+      {
+        "id": "dae5d5b096956a52cb140d4e0cab22cc952a3c9d",
+        "type": "FEATURE",
+        "text": " sap.ui.fl provides a support panel to debug flexibility",
+        "references": []
+      },
+      {
+        "id": "b9c4e57906857cb4e09269154c65ab6b2278ad7f",
+        "type": "FEATURE",
+        "text": " sap.ui.fl remembers changes applied on control",
+        "references": []
+      },
+      {
+        "id": "dc5c9027c2b40da37630a687ad213679515148f9",
+        "type": "FEATURE",
+        "text": " sap.ui.fl: Shared configuration for test pages",
+        "references": []
+      },
+      {
+        "id": "fa513022b2647b43e2eed9c88ee13b8a60b70323",
+        "type": "FEATURE",
+        "text": " sap.ui.rta: Refactoring the unsaved changes which are booked",
+        "references": []
+      },
+      {
+        "id": "f07a5592fce0f599378f1e5ba24408e490569a0c",
+        "type": "FEATURE",
+        "text": " sap.ui.support: Use presets to filter rules",
+        "references": []
+      },
+      {
+        "id": "dcfd53cfcddcd2c34b8b4fde52b062d1a7eaeedb",
+        "type": "FEATURE",
+        "text": "sap.m: Change handler for add OData properties to sap.m.Table",
+        "references": []
+      },
+      {
+        "id": "3c9e76fd873c1dd231a88ff58944abab6986c59f",
+        "type": "FEATURE",
+        "text": "sap.ui.fl: Set initial variant from URL parameter",
+        "references": []
+      },
+      {
+        "id": "72d02f24a338165ca7408495750d5c0d8430463d",
+        "type": "FEATURE",
+        "text": "sap.ui.fl: Support for instance specific change handlers",
+        "references": []
+      },
+      {
+        "id": "98aa762a0b4fdca09081356feff7f89fa2093916",
+        "type": "FEATURE",
+        "text": "sap.ui.rta: Support app descriptor changes in Settings",
+        "references": []
+      },
+      {
+        "id": "c2598768ee67da3087835a99399eeaa63cae7011",
+        "type": "FIX",
+        "text": " : Support UI Adaptation embedded components scenario",
+        "references": []
+      },
+      {
+        "id": "ff97aeb09fc61c7bb7b283f30bd5b2b2070a6553",
+        "type": "FIX",
+        "text": " Add getPreparedChange to ctrl variant commands",
+        "references": []
+      },
+      {
+        "id": "625807262b92f2ae4d7a7f144b9212707edc1abc",
+        "type": "FIX",
+        "text": " Always return a Promise for ControllerExtensions",
+        "references": []
+      },
+      {
+        "id": "2a296ecfa2c3f6b09e9f386ff739196bef9cc9c3",
+        "type": "FIX",
+        "text": " App Descriptor changes are not removed from local storage",
+        "references": []
+      },
+      {
+        "id": "c0342407fe532b52da845670c2a969ff879a5733",
+        "type": "FIX",
+        "text": " Bug fixes for Delta Variants",
+        "references": []
+      },
+      {
+        "id": "0d702f9805ad01d4bcad3517bb9af2bba95a6ba9",
+        "type": "FIX",
+        "text": " Case sensitive view name validation",
+        "references": []
+      },
+      {
+        "id": "b548cbe1666b1cc3441484aebd3cee7677db85a1",
+        "type": "FIX",
+        "text": " Control Variants duplicate fileName length exceeding 64",
+        "references": []
+      },
+      {
+        "id": "ca5b37dada47aa8e9e4b9d01491d4649253217d9",
+        "type": "FIX",
+        "text": " Copy of variants doesn\u0027t copy name",
+        "references": []
+      },
+      {
+        "id": "1f9630cc34c5871f5ee30cd630ed8ae379508c90",
+        "type": "FIX",
+        "text": " Delete update of _mChangesEntries",
+        "references": []
+      },
+      {
+        "id": "839fe13ca5a455c6365174dffa661d6ab671427f",
+        "type": "FIX",
+        "text": " Fix bug in Sorting and support deletion of variants",
+        "references": []
+      },
+      {
+        "id": "5946582fe6b2d90bc1ad828e0c8ba40a6a1139ea",
+        "type": "FIX",
+        "text": " Fix bug in sorting of variants after reload",
+        "references": []
+      },
+      {
+        "id": "a02a75d0e36c66b795e3a6073c9d611492dae8c9",
+        "type": "FIX",
+        "text": " Fix control variant issues",
+        "references": []
+      },
+      {
+        "id": "66f4e9a7d5110fe01ac24cdf3632a23a931c9734",
+        "type": "FIX",
+        "text": " Fix errors in variant management handling",
+        "references": []
+      },
+      {
+        "id": "fe3486a46717bb329fd48e1e007a15f42390c74c",
+        "type": "FIX",
+        "text": " Fix minor issues for Control Variant Plugin support",
+        "references": []
+      },
+      {
+        "id": "b2bf2b7faf961d427609444570d3f23f4f8bee65",
+        "type": "FIX",
+        "text": " Fix open issues",
+        "references": []
+      },
+      {
+        "id": "bbd4ecb2110dd6f137a110e98ff56e0fd169afa8",
+        "type": "FIX",
+        "text": " Fix several issues in Variant Management Control",
+        "references": []
+      },
+      {
+        "id": "c941314f3d3bde2b8a43a8e699c107555a30f537",
+        "type": "FIX",
+        "text": " Fix several issues in variant management control",
+        "references": []
+      },
+      {
+        "id": "407b94ad3547b5fc7b7469262624220c2ae96d44",
+        "type": "FIX",
+        "text": " FlexController",
+        "references": []
+      },
+      {
+        "id": "1a1d07ef0dfd27686df2496eef5d824f999bb062",
+        "type": "FIX",
+        "text": " Issues with displaying error messages in case of failed save",
+        "references": []
+      },
+      {
+        "id": "31e730cb5093bbadebe8818df063076adce39e5d",
+        "type": "FIX",
+        "text": " Move variant title property to content of content of variant",
+        "references": []
+      },
+      {
+        "id": "9559d164e0066ec333a55c8d774b49e5102a528f",
+        "type": "FIX",
+        "text": " Opening file in LREP browser lasts long",
+        "references": []
+      },
+      {
+        "id": "6e5c4af6172369f245eebb535ec1fbf3a0ae2ff4",
+        "type": "FIX",
+        "text": " QUnit Designtime Library tests in Firefox",
+        "references": []
+      },
+      {
+        "id": "eb6e8a23450b47097826583f48825986efabe5d5",
+        "type": "FIX",
+        "text": " Rename and move API for Control Personalization",
+        "references": []
+      },
+      {
+        "id": "ab822c93bbf93598bba946d730a79cc800c49dfe",
+        "type": "FIX",
+        "text": " Revise VariantController unit test for sorting",
+        "references": []
+      },
+      {
+        "id": "0d59187786d33e86a9dd8b1c5420104f83e68002",
+        "type": "FIX",
+        "text": " Selector not set for FlexCommand \u0026 destroyed element change save problem",
+        "references": []
+      },
+      {
+        "id": "37e87eb29b27ef652822f7e5064388064b511cd5",
+        "type": "FIX",
+        "text": " Support old variant management control in FakeLrepLocalStorage",
+        "references": []
+      },
+      {
+        "id": "b88c6cc828fd586a572a73f974086423685e4826",
+        "type": "FIX",
+        "text": " Transport Dialog: Re-enable transport of flexibility changes in CUSTOMER layer",
+        "references": []
+      },
+      {
+        "id": "f3666d0b4b2ecd82701439e470524c4e6b1fb36b",
+        "type": "FIX",
+        "text": " Variant URL parameters should be added depending on the VM control(s) on the current view",
+        "references": []
+      },
+      {
+        "id": "bfca68a0f0d4868bfd1064315e76d3e55f54737f",
+        "type": "FIX",
+        "text": " Variant loading fails if server sends correct content type",
+        "references": []
+      },
+      {
+        "id": "8cae2c3dd738de143d4b96b6110e433a62b285ba",
+        "type": "FIX",
+        "text": " VariantManagement- focus indicator with IE",
+        "references": []
+      },
+      {
+        "id": "c8660e4d76f02d867a753a95b5a0bed48f14adf8",
+        "type": "FIX",
+        "text": " VariantManagement: typpo in method name",
+        "references": []
+      },
+      {
+        "id": "504569d21ec96f625a54f8725380573f1ae6b2fb",
+        "type": "FIX",
+        "text": " changes are applied on recreation in initial app startup",
+        "references": []
+      },
+      {
+        "id": "548316b5e05e1879999ae1a94c513dcbf987e94a",
+        "type": "FIX",
+        "text": " default variants have a correct namespace \u0026 version info",
+        "references": []
+      },
+      {
+        "id": "2a068931696783ba988122b2fdfb47fa2fc7737d",
+        "type": "FIX",
+        "text": " fl.VariantManagement: change display from inline to inline-block",
+        "references": []
+      },
+      {
+        "id": "05492f286d2d15a0a521b4fbf38c6207c0f0fba7",
+        "type": "FIX",
+        "text": " fl.VariantManagement: set focus on \u0027Cancel\u0027 after variant deletion",
+        "references": []
+      },
+      {
+        "id": "5b19125732a96d461422148f9e51f8d4cebc6f78",
+        "type": "FIX",
+        "text": " sap.ui.core.util.reflection - UA cleanup",
+        "references": []
+      },
+      {
+        "id": "faf8487f38b6fc648efde1d2eb176aca78f37858",
+        "type": "FIX",
+        "text": " sap.ui.fl - FakeLrep returns changes sorted by layer",
+        "references": []
+      },
+      {
+        "id": "8c86bead81a3ebb54df97f66ea9520129071130c",
+        "type": "FIX",
+        "text": " sap.ui.fl - Undefined parsed URL causing dump in VariantUtil",
+        "references": []
+      },
+      {
+        "id": "aaf90380008550c18ddf8a838f6f20fc8955fc37",
+        "type": "FIX",
+        "text": " sap.ui.fl - controlDependencies check bugfix",
+        "references": []
+      },
+      {
+        "id": "9fcdce02bc9c2aacb126d021113ab905983da85e",
+        "type": "FIX",
+        "text": " sap.ui.fl - fix explicit registered changeHandler load",
+        "references": []
+      },
+      {
+        "id": "4f6142d15c07b404b51899c9c8eaee11f71b0756",
+        "type": "FIX",
+        "text": " sap.ui.fl - invalidate cache on exit rta",
+        "references": []
+      },
+      {
+        "id": "1b00121331cbd2ed79e0c4ca78fb89bd84942370",
+        "type": "FIX",
+        "text": " sap.ui.fl - performance improvement",
+        "references": []
+      },
+      {
+        "id": "6429d24c809384062de470ed4fae18a2af8dc19c",
+        "type": "FIX",
+        "text": " sap.ui.fl : Caching of flex/settings request",
+        "references": []
+      },
+      {
+        "id": "b10e31713834e6b9c99c88bb6b2f3f2a67c9148d",
+        "type": "FIX",
+        "text": " sap.ui.fl App variant version validity",
+        "references": []
+      },
+      {
+        "id": "94935713437c6960c6c8da30b67bd2937d6e4a3a",
+        "type": "FIX",
+        "text": " sap.ui.fl Correctly mark change as being applied changeHandler for xml views",
+        "references": []
+      },
+      {
+        "id": "76fcec2172bee4ec541ca1b8643e215d9ab640a8",
+        "type": "FIX",
+        "text": " sap.ui.fl UnstashControl - fix visible + optional move",
+        "references": []
+      },
+      {
+        "id": "433f2a1bcb675f3bbe02ff06eb72259c7ae9e172",
+        "type": "FIX",
+        "text": " sap.ui.fl changeHandler needs to store dependencies",
+        "references": []
+      },
+      {
+        "id": "18247f421f42dfb378db253fcada27c35077294b",
+        "type": "FIX",
+        "text": " sap.ui.fl.FakePromise - FakePromise in FakePromise handling added",
+        "references": []
+      },
+      {
+        "id": "0eba7e2133902e5d7e341f8a3dc7b16e567f382a",
+        "type": "FIX",
+        "text": " sap.ui.fl: Fix issues with variants and FLP navigation:",
+        "references": []
+      },
+      {
+        "id": "05ef3a73b62f976301efb7c9ef6e5b64130b7e1b",
+        "type": "FIX",
+        "text": " sap.ui.fl: MoveControls now reverts to the correct position",
+        "references": []
+      },
+      {
+        "id": "4a7a686f975fb5b3ec6af372d4b1c0ab4db17b78",
+        "type": "FIX",
+        "text": " sap.ui.fl: Pass application component to applyChange methods",
+        "references": []
+      },
+      {
+        "id": "fd4479c2edffeaebe3de8c0dc1b7f98003622d4c",
+        "type": "FIX",
+        "text": " sap.ui.fl: Support previously implemented VariantManagement functionality in FakeLrepConnectorStorage",
+        "references": []
+      },
+      {
+        "id": "a1632670edb941c451dfb819e0dfcb1975008215",
+        "type": "FIX",
+        "text": " sap.ui.fl: Variant selection in URL should not change history",
+        "references": []
+      },
+      {
+        "id": "73f1bee881fadbe9694272c004b8496f276f7189",
+        "type": "FIX",
+        "text": " sap.ui.fl: checkTargetAndApplyChange small fix on applied changes",
+        "references": []
+      },
+      {
+        "id": "d5b7d8532e33d8b6910200326e7a1046730c5b5f",
+        "type": "FIX",
+        "text": " sap.ui.fl: fixed Promised when applying a change",
+        "references": []
+      },
+      {
+        "id": "92dcc676f1188b73a90e03969e4d3c61e983673e",
+        "type": "FIX",
+        "text": " set VariantModel to UI5-internal",
+        "references": []
+      },
+      {
+        "id": "314f252dca1e375eafd1a745ba707e97c4b1f790",
+        "type": "FIX",
+        "text": " update mChangesEntries in case this has not taken place",
+        "references": []
+      },
+      {
+        "id": "2d1e61fb3b0dc683bdc008a6b5838f239a1f8b99",
+        "type": "FIX",
+        "text": ": RTA - moving controls in ObjectHeader",
+        "references": []
+      },
+      {
+        "id": "c73b54e406abb0cd98ece89bf007da59ec003402",
+        "type": "FIX",
+        "text": "Remove test dependencies to sap.ui.comp",
+        "references": []
+      },
+      {
+        "id": "8500ca102726bd7b237170da7e0f04b51b3a1adc",
+        "type": "FIX",
+        "text": "[TEST] sap.ui.fl tests use simpleForm controls",
+        "references": []
+      },
+      {
+        "id": "30c5e80bf162632432b27f3369e8d1114c17d008",
+        "type": "FIX",
+        "text": "[TEST] sap.ui.fl tests use simpleForm controls",
+        "references": []
+      },
+      {
+        "id": "16553b086737025c9cd0c8d327b796b97e68f234",
+        "type": "FIX",
+        "text": "sap.ui.fl - Fixed switching variants with stashed controls",
+        "references": []
+      },
+      {
+        "id": "a1367b50239f872867878a2aac0d5803a1101033",
+        "type": "FIX",
+        "text": "sap.ui.fl - MoveControls change handler RevertData with id",
+        "references": []
+      },
+      {
+        "id": "ce781b4f47380c296ba64c00a6eb0aa25647dfed",
+        "type": "FIX",
+        "text": "sap.ui.fl - Variant URL parameter fixes",
+        "references": []
+      }
+    ]
+  }
+}

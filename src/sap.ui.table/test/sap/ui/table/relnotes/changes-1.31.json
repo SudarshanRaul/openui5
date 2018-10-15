@@ -1,0 +1,2677 @@
+{
+  "1.31.0": {
+    "date": "October 2018",
+    "notes": [
+      {
+        "id": "b45077ff3afbd43bc0d9bf4f036ef4d6532586eb",
+        "type": "FEATURE",
+        "text": " sap.ui.core.AccInfo: Option for controls to provide information about their accessibility state\"",
+        "references": []
+      },
+      {
+        "id": "d77d44795b05b3d1b8675c95e91a170fe58021cb",
+        "type": "FEATURE",
+        "text": " BusyIndicator - New Animation",
+        "references": []
+      },
+      {
+        "id": "0162e96c5452e5045751e400739f7a07d96c7732",
+        "type": "FEATURE",
+        "text": " Core: DragInfo/DropInfo are added to configure drag-and-drop",
+        "references": []
+      },
+      {
+        "id": "4ba21ffdeb4b7b68971f4305f7be4089e03eaf66",
+        "type": "FEATURE",
+        "text": " MultiInput condensed mode support",
+        "references": []
+      },
+      {
+        "id": "70c48538b37902df10f6fade212b74c20d731613",
+        "type": "FEATURE",
+        "text": " New Explored examples for TreeTable with OData",
+        "references": []
+      },
+      {
+        "id": "9901668ffebd01aac4bc4aa717a77c56f6085308",
+        "type": "FEATURE",
+        "text": " ODataTreeBinding - Hierarchy-Maintenance",
+        "references": []
+      },
+      {
+        "id": "40a943f14426982cfcc5f9bf89d33cdea7bd8fd1",
+        "type": "FEATURE",
+        "text": " ODataTreeBinding: Add expand node to level API",
+        "references": []
+      },
+      {
+        "id": "571552d4ae63f67fe8d0013d26ac0f8275ea284d",
+        "type": "FEATURE",
+        "text": " Show the BusyIndicator in more scenarios",
+        "references": []
+      },
+      {
+        "id": "29f4469ca8bd6b7c801c65d8c972660d3b0b573d",
+        "type": "FEATURE",
+        "text": " Table: RadioButton visualization in single selection mode",
+        "references": []
+      },
+      {
+        "id": "f9c849df7de3de7ca800020e044b2ae81f2252d7",
+        "type": "FEATURE",
+        "text": " Table: Row highlights added",
+        "references": []
+      },
+      {
+        "id": "b893762ef14618f9a43e0a16dab698b7eb5b37db",
+        "type": "FEATURE",
+        "text": " Table: Support for drag and drop added",
+        "references": []
+      },
+      {
+        "id": "55b6b5889715c8f47ef3df265a959c6e42fa098a",
+        "type": "FEATURE",
+        "text": " Tables/List/Tree: Apply header context CSS on toolbar",
+        "references": []
+      },
+      {
+        "id": "33e7c5dca6a641fb56a1bac3dbbf65c9408dc513",
+        "type": "FEATURE",
+        "text": " TreeBindingAdapter: Add bSuppressChange parameter to expand function",
+        "references": []
+      },
+      {
+        "id": "9a76a362544478fbe2737b34f1af424da9ef9c05",
+        "type": "FEATURE",
+        "text": " TreeTable - Support for AutoExpand Paging",
+        "references": []
+      },
+      {
+        "id": "813ab53538037d1404f6ddffecf2ded9237cb42a",
+        "type": "FEATURE",
+        "text": " TreeTable: API to expand/collapse multiple rows added",
+        "references": []
+      },
+      {
+        "id": "2c10ab9161fa0e85930d1b6ae1ef9caade53b9a6",
+        "type": "FEATURE",
+        "text": " sap.ui.core.AccInfo: Option for controls to provide information about their accessibility state",
+        "references": []
+      },
+      {
+        "id": "5d673fd2c5926688e3c873541b03df13cf2b47d0",
+        "type": "FEATURE",
+        "text": " sap.ui.core.Control: Introduce function getAccessibilityInfo",
+        "references": []
+      },
+      {
+        "id": "d17fdac9dbc1fc0b58b2346972b36638e00981c6",
+        "type": "FEATURE",
+        "text": " sap.ui.core.dnd: dragEnd and dragOver events are added",
+        "references": []
+      },
+      {
+        "id": "73d5b7818c6988137d1ea652cbbc022b850e10a0",
+        "type": "FEATURE",
+        "text": " sap.ui.table.*: Activate new keyboard implementation",
+        "references": []
+      },
+      {
+        "id": "9f9d4d595c0d0e11e75219b3531465bf2514c6be",
+        "type": "FEATURE",
+        "text": " sap.ui.table.*: Row actions feature added",
+        "references": []
+      },
+      {
+        "id": "987e06d29e0b7d68ac178bc77e286121100390b3",
+        "type": "FEATURE",
+        "text": " sap.ui.table.*: Unify column move logic",
+        "references": []
+      },
+      {
+        "id": "66182175a6d1887ba78a2bf32a78e140e3e5be5e",
+        "type": "FEATURE",
+        "text": " sap.ui.table.AnalyticalTable: Adds Screen Reader Support",
+        "references": []
+      },
+      {
+        "id": "81918bd1151cf9aea2eb2702bd5fce0a0cd65ed7",
+        "type": "FEATURE",
+        "text": " sap.ui.table.AnalyticalTable: suspend and resume UpdateAnalyticalInfo",
+        "references": []
+      },
+      {
+        "id": "02c392a8ad23d133c69413ad42dc7d706a3bea7b",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Column: New property minWidth",
+        "references": []
+      },
+      {
+        "id": "845c5d1fb0eb52a189ebdaaf0bb899d242085284",
+        "type": "FEATURE",
+        "text": " sap.ui.table.ColumnUtils: initial commit for column utilities",
+        "references": []
+      },
+      {
+        "id": "b32beeee30e1ab06a93bb1718f9ea0dafc2f4623",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table - Ctrl+Up/Ctrl+Down keyboard navigation in cell edit mode",
+        "references": []
+      },
+      {
+        "id": "0ea455578b026d24a3a56e5aaadfb89afdc272eb",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: Expand/Collapse Group via SPACE, ENTER, NUMPAD + or NUMBAD - instead of arrow keys",
+        "references": []
+      },
+      {
+        "id": "661fb409f7a5d2eb3701c0b884ba5e67829c6033",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: New visual design for column reordering",
+        "references": []
+      },
+      {
+        "id": "5a009d6f773839659ec68247303c6f3324fb04fd",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: ScreenReader Support",
+        "references": []
+      },
+      {
+        "id": "4a63925a064d2ac24cee081e3c9dfca2c585adc1",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: alternateRowColors property added",
+        "references": []
+      },
+      {
+        "id": "ca139bc792526eb6f3033badf8eecde9c3b1ff0c",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: column header menu on touch devices",
+        "references": []
+      },
+      {
+        "id": "db4841b701d78d3204e39b2fdbcdfb03eaef15e1",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: implement variable row height",
+        "references": []
+      },
+      {
+        "id": "5f002d66a089bb75b567fbecf23ef084f7386cf0",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: improved column touch menu and resizer",
+        "references": []
+      },
+      {
+        "id": "655779c813a91a5d691608ffacf1b36ff96580dd",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: initial commit for object pool of column template clones",
+        "references": []
+      },
+      {
+        "id": "e888e876e6e0302a9af9a6e450b41a8f4d2df64f",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: new column resize behavior",
+        "references": []
+      },
+      {
+        "id": "24fc46bad1077794eca6c5a4792f2e7bdb3f0921",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: new contextMenu aggregation added",
+        "references": []
+      },
+      {
+        "id": "d16716c8445f81d071fe9684e3b7fcbdfb74423b",
+        "type": "FEATURE",
+        "text": " sap.ui.table.Table: rowSelectionChange - selectAll property",
+        "references": []
+      },
+      {
+        "id": "c4f69d965ee40bea5657e781acfe9c452729032f",
+        "type": "FEATURE",
+        "text": " sap.ui.table.TreeTable: Adds ExploredApp example",
+        "references": []
+      },
+      {
+        "id": "32cd97b5f5540b3347ea811c1d0b1a46d6bcc9bb",
+        "type": "FEATURE",
+        "text": " sap.ui.table.TreeTable: ScreenReader Support",
+        "references": []
+      },
+      {
+        "id": "abf2f5c49b811d4a8d86d6bbdd4cc0a306cc2c4a",
+        "type": "FEATURE",
+        "text": " sap.ui.table: Performance improvements for table library",
+        "references": []
+      },
+      {
+        "id": "59f9c20c3b15269694e6a20a8872a748bf9c5a83",
+        "type": "FEATURE",
+        "text": " sap.ui.table: Shared configuration for test pages",
+        "references": []
+      },
+      {
+        "id": "8227debc45790a1c9f4e59b4f9c8b3d9d25c440b",
+        "type": "FEATURE",
+        "text": " sap.ui.unified.Menu: Delayed opening of submenus on hover",
+        "references": []
+      },
+      {
+        "id": "2bbb20c42fc05c44bad3f723f891048a1a86dac0",
+        "type": "FEATURE",
+        "text": " thirdparty: update es6-promise polyfill to version 4.2.4",
+        "references": []
+      },
+      {
+        "id": "28da93486c4e023f9624f1a1c2d34b90d7a75a1f",
+        "type": "FEATURE",
+        "text": " v2.ODataTreeBinding - Hierarchy-Maintenance - Part 2 (service-calls)",
+        "references": []
+      },
+      {
+        "id": "5d78fe5f449ee8b8e4344962a69a9f0eb410fbdc",
+        "type": "FEATURE",
+        "text": " v2.ODataTreeBinding - OperationMode.Auto",
+        "references": []
+      },
+      {
+        "id": "c5ebb2702d1924ba704895e43ea5173e181ce802",
+        "type": "FEATURE",
+        "text": " v2.ODataTreeBinding - Send application filters on Client/Auto Mode",
+        "references": []
+      },
+      {
+        "id": "09411b16a1dcc1646ecfba4af76a2af2e6c10fce",
+        "type": "FEATURE",
+        "text": " v2.ODataTreeBinding - Support for OperationMode.Client",
+        "references": []
+      },
+      {
+        "id": "71abbba3a25f0cb6fbb4055c68a6b9853ed8907f",
+        "type": "FEATURE",
+        "text": " v2.ODataTreeBinding - Tree State for OperationMode.Client",
+        "references": []
+      },
+      {
+        "id": "a157ec52c9964516a319c383362d85f474054a32",
+        "type": "FIX",
+        "text": " AnalyticalTable - Hide Grand-Total Row if no total sum was requested",
+        "references": []
+      },
+      {
+        "id": "12914001dd352c68858d0371eaf871d5e6002386",
+        "type": "FIX",
+        "text": " AnalyticalTable - Total Row \u0026 Metadata Timing",
+        "references": []
+      },
+      {
+        "id": "d3ad2396c8c0df86df51d799b8ceba5ecd5eb4bb",
+        "type": "FIX",
+        "text": " AnalyticalTable.js - Fixed Blocking BusyIndicator",
+        "references": []
+      },
+      {
+        "id": "d0d3be3ee8333d38aac6a7b43b8ba6df4e9d32c8",
+        "type": "FIX",
+        "text": " AnalyticalTable: Consider groups on initial numberOfExpandedLevels",
+        "references": []
+      },
+      {
+        "id": "50408c8e520372b32fffeb6b88cddb304c3d3b87",
+        "type": "FIX",
+        "text": " AnalyticalTable: Correctly bind rows via XML view",
+        "references": []
+      },
+      {
+        "id": "7c957dba4c050b1b0bb77f521e4b8db10a522c6a",
+        "type": "FIX",
+        "text": " AnalyticalTable: Remove limitations of SelectionMode/Behavior",
+        "references": []
+      },
+      {
+        "id": "156ec50ee2e83c4eb049b2c3810b360046bdd258",
+        "type": "FIX",
+        "text": " AnalyticalTable: Sort and move group up/down",
+        "references": []
+      },
+      {
+        "id": "ff963b1155ce98c7baf7b10efdb9fad9b44f5c67",
+        "type": "FIX",
+        "text": " AnalyticalTable: Sum Row indent and hover effect corrected",
+        "references": []
+      },
+      {
+        "id": "2a175e738fdde8ffa9394d8a6a05544faf7399fe",
+        "type": "FIX",
+        "text": " AnalyticalTable: Ungrouping in SmartTable via ViewSettings dialog",
+        "references": []
+      },
+      {
+        "id": "468296f2e5733a44949ebdf5f91b0611d7a5d391",
+        "type": "FIX",
+        "text": " AnalyticalTable: Ungrouping using the column menu",
+        "references": []
+      },
+      {
+        "id": "5e09d128a3515b8bda6a56b4079fe1074ec0b1dd",
+        "type": "FIX",
+        "text": " AnalyticalTable: Ungrouping via the group header menu",
+        "references": []
+      },
+      {
+        "id": "4a29faeace0bc25dbad18a917499b694ce0e014b",
+        "type": "FIX",
+        "text": " AnalyticalTable: filter menu handling for measures corrected",
+        "references": []
+      },
+      {
+        "id": "414c388a0abfebda9afc2b9794497c65faec89f5",
+        "type": "FIX",
+        "text": " AnalyticalTreeBindingAdapter: corrects change reason for collapse event",
+        "references": []
+      },
+      {
+        "id": "0d108f08f280d360465e5079172cded7eab65b55",
+        "type": "FIX",
+        "text": " ClientTreeBinding - Retrieve all available entries",
+        "references": []
+      },
+      {
+        "id": "44342edcf992a9177ad053d2ce4abf935c660a3f",
+        "type": "FIX",
+        "text": " ClientTreeBinding: Calculate correct selected nodes count when filtering",
+        "references": []
+      },
+      {
+        "id": "e4cc91804bb1c66b81fe964b4a4e2f655fd05f5f",
+        "type": "FIX",
+        "text": " ClientTreeBinding: selectAll + expand may result in incorrect selectedNodesCount",
+        "references": []
+      },
+      {
+        "id": "9f8c15d440198ed551c24d385fa456e70c295580",
+        "type": "FIX",
+        "text": " ClientTreeBindingAdapter - Expand was broken",
+        "references": []
+      },
+      {
+        "id": "9ee6082188ff07fdf01b23e05c257f49969eb03f",
+        "type": "FIX",
+        "text": " ClientTreeBindingAdapter - Fixed Issue with groupID calculation",
+        "references": []
+      },
+      {
+        "id": "8e6cb02156c5deb9aaa3a612280a7895e94d8267",
+        "type": "FIX",
+        "text": " ClientTreeBindingAdapter - Reset Cache",
+        "references": []
+      },
+      {
+        "id": "31df5a756d0a6cc3e4004255f48c23a2f7d7a545",
+        "type": "FIX",
+        "text": " ClientTreeBindingAdapter - Wrong GroupIDs",
+        "references": []
+      },
+      {
+        "id": "81f103fa55307f7f6b2a1bbeda19458c0f3f153d",
+        "type": "FIX",
+        "text": " ClientTreeBindingAdapter: Build tree for selection changes",
+        "references": []
+      },
+      {
+        "id": "c9aff73e69929441e6e27096912017d0b3ee13b2",
+        "type": "FIX",
+        "text": " Control: refactor fnHandleInteraction",
+        "references": []
+      },
+      {
+        "id": "35847319218700ad82e5eef6de42d22474685df9",
+        "type": "FIX",
+        "text": " Corrected shared-config.js path",
+        "references": []
+      },
+      {
+        "id": "d0a0457ff8064f05063a9e1a396ebc47dccdd518",
+        "type": "FIX",
+        "text": " Fix changes of Layout Thrashing improvements",
+        "references": []
+      },
+      {
+        "id": "5b0190192e6946a01b204d20112bf9236f4c13e8",
+        "type": "FIX",
+        "text": " Fix for problem on loading table when columns are not visible",
+        "references": []
+      },
+      {
+        "id": "04a30baf94c43c1f7000a704a8ff6f450a5f64e1",
+        "type": "FIX",
+        "text": " GridTable: Add additional aria label to column visibility items",
+        "references": []
+      },
+      {
+        "id": "731989ed01a94bc30cce9fba12a87e14b41eaf90",
+        "type": "FIX",
+        "text": " GridTable: Attribute headers for gridcell corrected",
+        "references": []
+      },
+      {
+        "id": "69489ac64644a73a091268888fc75db504e2dfb1",
+        "type": "FIX",
+        "text": " GridTable: Avoid refocus of cell while scrolling for ACC",
+        "references": []
+      },
+      {
+        "id": "964f990699939f33c47044823f0222f1d74412e1",
+        "type": "FIX",
+        "text": " GridTable: Color contrast of Information Highlight fixed in HCB/W",
+        "references": []
+      },
+      {
+        "id": "73fc28de950ff7057390feea1b11356771811597",
+        "type": "FIX",
+        "text": " GridTable: Disable visibility menu item of last visible column",
+        "references": []
+      },
+      {
+        "id": "52101ab82623837a04abc218ce623777b4dd21dc",
+        "type": "FIX",
+        "text": " GridTable: Double top border removed",
+        "references": []
+      },
+      {
+        "id": "6736bd4b8122912d2504a910469aea108d4983cb",
+        "type": "FIX",
+        "text": " GridTable: Ensure getFixColumnCount to return the property value",
+        "references": []
+      },
+      {
+        "id": "d7107838933ef324c87a99d732fd4c092b99841a",
+        "type": "FIX",
+        "text": " GridTable: Fix up/down navigation with arrow keys",
+        "references": []
+      },
+      {
+        "id": "a73a2443094c0bd2e428a9d94c091cb96ce4352b",
+        "type": "FIX",
+        "text": " GridTable: Fix update of firstVisibleRow on scrolling",
+        "references": []
+      },
+      {
+        "id": "5b6057f920ca654fb9e49e8e7666c7cd539d1cee",
+        "type": "FIX",
+        "text": " GridTable: Hide Selection tooltip on empty rows",
+        "references": []
+      },
+      {
+        "id": "e7f179b91b2ab8aeab10fce4b7a729b8dd5f3de5",
+        "type": "FIX",
+        "text": " GridTable: Keyboard Behavior on RowActions",
+        "references": []
+      },
+      {
+        "id": "8ab042ebe772e118cf4762604461248ca1de8095",
+        "type": "FIX",
+        "text": " GridTable: Leave action mode on horizontal scroll",
+        "references": []
+      },
+      {
+        "id": "a7065e379c9302573cddce834def7e80de2b59ca",
+        "type": "FIX",
+        "text": " GridTable: Move before/after tab elements out of scrollable CCnt",
+        "references": []
+      },
+      {
+        "id": "2a956dedd3a112687b2f89bf39fedfb2f8f87e89",
+        "type": "FIX",
+        "text": " GridTable: No event default prevention on non-table DOM elements",
+        "references": []
+      },
+      {
+        "id": "2da9921a6f815d6e681d1b2e8b6e9d33b635ca0a",
+        "type": "FIX",
+        "text": " GridTable: NoData handling for $expand(ed) lists corrected",
+        "references": []
+      },
+      {
+        "id": "8d2a3caaf2a2539e9ebd1461ff4b7343735a4bd1",
+        "type": "FIX",
+        "text": " GridTable: Scrollbar styling in base theme",
+        "references": []
+      },
+      {
+        "id": "6b0b5935a32778d61c9149d38f02282f6f118199",
+        "type": "FIX",
+        "text": " GridTable: applyFocusInfo handling corrected",
+        "references": []
+      },
+      {
+        "id": "1b7d6a4f6f9b41b4507c53bb0fef667640e79d07",
+        "type": "FIX",
+        "text": " JSDoc typo: sap.ui.table.AnalyticalColumn",
+        "references": []
+      },
+      {
+        "id": "a08675d8c87fb70c39f5e03e980b81aada06d737",
+        "type": "FIX",
+        "text": " ODataTreeBindingAdapter.expandNodeToLevel: Only expand nodes above given level",
+        "references": []
+      },
+      {
+        "id": "3b066a8de026524c15c671ad076fe41567fad41c",
+        "type": "FIX",
+        "text": " ODataTreeBindingAdapter: Encode slashes in property values when calculation group IDs",
+        "references": []
+      },
+      {
+        "id": "4887e93a34ee1f967fc95616dec6a132cc675a60",
+        "type": "FIX",
+        "text": " ODataTreeBindingAdapter: clearSelection removes selectAllMode from root node",
+        "references": []
+      },
+      {
+        "id": "6e5c4af6172369f245eebb535ec1fbf3a0ae2ff4",
+        "type": "FIX",
+        "text": " QUnit Designtime Library tests in Firefox",
+        "references": []
+      },
+      {
+        "id": "d560b524ea504a222118820e3f7b960b287feba6",
+        "type": "FIX",
+        "text": " Table: Accessibility texts for row selection corrected",
+        "references": []
+      },
+      {
+        "id": "4943bc42d24db822e655b767d775d3014ea838a7",
+        "type": "FIX",
+        "text": " Table: Arrow key navigation if the cell content is not rendered",
+        "references": []
+      },
+      {
+        "id": "30c449c7d733816c065c219053776a902c566bd4",
+        "type": "FIX",
+        "text": " Table: Avoid horizontal scrolling of cell content on focus in rtl",
+        "references": []
+      },
+      {
+        "id": "0547bae800622b2ee055f66bca146a1381c7095e",
+        "type": "FIX",
+        "text": " Table: Avoid infinite re-rendering if fixed columns are available",
+        "references": []
+      },
+      {
+        "id": "23070a32725bbecf970d0b638059c8ac88830dbd",
+        "type": "FIX",
+        "text": " Table: Avoid invalidation if NoData text string wasn\u0027t changed",
+        "references": []
+      },
+      {
+        "id": "ce9551a589d3d93ad30dcf0b7bbfd6ea44851cc5",
+        "type": "FIX",
+        "text": " Table: Avoid layout and row updates if the table is invisible",
+        "references": []
+      },
+      {
+        "id": "02b4d11996e038ca3da78557f5721b19f65d4696",
+        "type": "FIX",
+        "text": " Table: Avoid null pointer exception when last row was removed",
+        "references": []
+      },
+      {
+        "id": "73491989ae6aecba12f61fc66b6fba5d8d90c282",
+        "type": "FIX",
+        "text": " Table: Avoid text selection in Edge, if selecting with Shift+Click",
+        "references": []
+      },
+      {
+        "id": "51b0a3cfb840ccfd128c517f8bf666d92d2afb84",
+        "type": "FIX",
+        "text": " Table: BusyIndicator and NoData handling",
+        "references": []
+      },
+      {
+        "id": "d5853a6e79d40899d48c34a5c6c74b8e92e73dc8",
+        "type": "FIX",
+        "text": " Table: Calculation of row count in \"Auto\" mode",
+        "references": []
+      },
+      {
+        "id": "06a22469851c073ac0e947d998696c05f38703e2",
+        "type": "FIX",
+        "text": " Table: Clicking on the column resizer no longer causes scrolling",
+        "references": []
+      },
+      {
+        "id": "e9cbd34909caf84dcd917fbef67928126a604220",
+        "type": "FIX",
+        "text": " Table: Column parameter of the ColumnSelect event",
+        "references": []
+      },
+      {
+        "id": "ad4249468fce17cf9d45fe21d245b271c585bfe9",
+        "type": "FIX",
+        "text": " Table: Correct height adjustment when used inside a splitter",
+        "references": []
+      },
+      {
+        "id": "ef9bf614657bfa890d1fa62255501e8ed3416330",
+        "type": "FIX",
+        "text": " Table: Correct number of rows in visibleRowCountMode\u003dAuto",
+        "references": []
+      },
+      {
+        "id": "af6892e564b36ebc5b9f59aba66a2f1408e886f9",
+        "type": "FIX",
+        "text": " Table: Correct positioning of the action column",
+        "references": []
+      },
+      {
+        "id": "c017ffff28ab3c313a6090b95d9d80759852827e",
+        "type": "FIX",
+        "text": " Table: Correctly calculate the number of displayed rows",
+        "references": []
+      },
+      {
+        "id": "ad2464e623ccf2464b854e0afd3a549d3626b737",
+        "type": "FIX",
+        "text": " Table: Correctly initialize the keyboard navigation",
+        "references": []
+      },
+      {
+        "id": "6adb737cfb1c22e64cb6fc444f660a72195ecb64",
+        "type": "FIX",
+        "text": " Table: Correctly process focus events related to the edit mode",
+        "references": []
+      },
+      {
+        "id": "d2b740d2b53cefacec7eeda86f6e079895e42e91",
+        "type": "FIX",
+        "text": " Table: Correctly set the checked state of the SelectAll checkbox",
+        "references": []
+      },
+      {
+        "id": "c22fba338d4e694228e465c0d3b48a51e80bb732",
+        "type": "FIX",
+        "text": " Table: Correctly update the NoData visibility",
+        "references": []
+      },
+      {
+        "id": "2a2a090279fe93d5e363819795f4e8242e9d69e6",
+        "type": "FIX",
+        "text": " Table: Correctly update the visibility of the NoData overlay",
+        "references": []
+      },
+      {
+        "id": "a08208926ab379551b2ef110471d9f4842a02cf1",
+        "type": "FIX",
+        "text": " Table: Do not overwrite binding event listeners of other parties",
+        "references": []
+      },
+      {
+        "id": "3962e1f21e5b551e2fb3e6102a0d0ebe50bb3633",
+        "type": "FIX",
+        "text": " Table: Edit mode navigation with input elements with non-text type",
+        "references": []
+      },
+      {
+        "id": "fc00b48dd3ba60877d73d4aaff86408d13391802",
+        "type": "FIX",
+        "text": " Table: Edit mode navigation with sap.m.Select repaired",
+        "references": []
+      },
+      {
+        "id": "5a9153f7edb24b0119ff002a9e26d70648688d41",
+        "type": "FIX",
+        "text": " Table: Horizontal scrolling with the touchpad",
+        "references": []
+      },
+      {
+        "id": "5707ac3297b188580d8f473351fb3f0fa48bc4a0",
+        "type": "FIX",
+        "text": " Table: Improved busy handling in case of parallel requests",
+        "references": []
+      },
+      {
+        "id": "bea91e1a50e9edb46cddba3b0862cf25ffa7e006",
+        "type": "FIX",
+        "text": " Table: Issues with zooming in Chrome",
+        "references": []
+      },
+      {
+        "id": "05e8a6a5dd139c2eec283587e449012d2c523820",
+        "type": "FIX",
+        "text": " Table: Layout correction with row actions",
+        "references": []
+      },
+      {
+        "id": "4691c74e368c6549ff5c073cfa8101ba010e179d",
+        "type": "FIX",
+        "text": " Table: Lets the page scroll if scrolled to the end in the table",
+        "references": []
+      },
+      {
+        "id": "0a55de3c9d1836ac0b99c19b7332d0b60cf97506",
+        "type": "FIX",
+        "text": " Table: Management of the column template clone stack",
+        "references": []
+      },
+      {
+        "id": "825de497e8814a4dd08817c859676baa4bd7089c",
+        "type": "FIX",
+        "text": " Table: Navigation while the busy indicator is shown",
+        "references": []
+      },
+      {
+        "id": "67c841e54ef72122b6032d314ea0bdce373ec842",
+        "type": "FIX",
+        "text": " Table: No more infinite re-renderings if zoomed in Chrome",
+        "references": []
+      },
+      {
+        "id": "f9711a751e6725df17a598b2d3189d13bb51350e",
+        "type": "FIX",
+        "text": " Table: Prevent page scrolling on keyboard navigation in the table",
+        "references": []
+      },
+      {
+        "id": "618ab18a3b7170347c1653cfbe5022b395526730",
+        "type": "FIX",
+        "text": " Table: Removed setBusy handling for \"Auto\" row count mode",
+        "references": []
+      },
+      {
+        "id": "7d661d076712149c16da32fb5eeb3c2da5fb02a9",
+        "type": "FIX",
+        "text": " Table: Resizing in interactive mode on touch devices",
+        "references": []
+      },
+      {
+        "id": "d4b8c36ded9eb49d0be61d9def1afb132e5bae47",
+        "type": "FIX",
+        "text": " Table: Role \"row\" added to tr elements in the table header",
+        "references": []
+      },
+      {
+        "id": "a43f1c9a31d8db52f677282b3f991d7a319aa7af",
+        "type": "FIX",
+        "text": " Table: Scroll position stability improved",
+        "references": []
+      },
+      {
+        "id": "e2a80ae0ebf1d2551ba39ea0985cc9423fbd255d",
+        "type": "FIX",
+        "text": " Table: Scroll position stabilized",
+        "references": []
+      },
+      {
+        "id": "ab9eeabf2bfc9f66aaf26246ef954fc27b1b3631",
+        "type": "FIX",
+        "text": " Table: Scrolling to last row with mouse wheel",
+        "references": []
+      },
+      {
+        "id": "97d00dfc4ce591d6d5ba2792ddcec5bfc434040a",
+        "type": "FIX",
+        "text": " Table: Select text of input fields in edit mode navigation",
+        "references": []
+      },
+      {
+        "id": "f35a6b9088079a65b7cb5c4efd55dd4237d8c4da",
+        "type": "FIX",
+        "text": " Table: Selected checkbox not visible properly",
+        "references": []
+      },
+      {
+        "id": "3eca5dcd91fe11964d2b5a00d3234fa594f950bf",
+        "type": "FIX",
+        "text": " Table: Text will be properly deselected in edit mode navigation",
+        "references": []
+      },
+      {
+        "id": "b878b43b33c2b5affda7a98a1b3f6ed27a24137d",
+        "type": "FIX",
+        "text": " Table: Tooltip of SelectAll cell when manually selecting all rows",
+        "references": []
+      },
+      {
+        "id": "9351c3d80a255ca500d169dacef6e673a4c4a9f1",
+        "type": "FIX",
+        "text": " Table: Vertical scrollbar becomes visible if height is decreased",
+        "references": []
+      },
+      {
+        "id": "ddbbb7980575496bcefde657664e7f9d13393553",
+        "type": "FIX",
+        "text": " Table: fix JSDoc for enumerations in sap/ui/table/library.js",
+        "references": []
+      },
+      {
+        "id": "6ef708e55291ce5f49126c2cf35c049d2c551104",
+        "type": "FIX",
+        "text": " TableUtils: Update OpenSource usage documentation",
+        "references": []
+      },
+      {
+        "id": "5cc8ac88bacc20be5a4196aa2ed1526ef4916654",
+        "type": "FIX",
+        "text": " TreeBindingAdapter - SelectAll",
+        "references": []
+      },
+      {
+        "id": "b0932ec9273c86eeb3b8654b8fef6ea1d12945c4",
+        "type": "FIX",
+        "text": " TreeBindingAdapter: Clear selectAllMode from all nodes on clearSelection()",
+        "references": []
+      },
+      {
+        "id": "b92f72b681410bc177d7ce6362af79c769725543",
+        "type": "FIX",
+        "text": " TreeBindingAdapter: Correct selected row index calculation for collapse operations",
+        "references": []
+      },
+      {
+        "id": "0a1d85cf1bafe00189e6bf7ac7467d91476902f9",
+        "type": "FIX",
+        "text": " TreeBindingAdapter: Fire selectionChange event when collapsing",
+        "references": []
+      },
+      {
+        "id": "b514a43475c517531f1f4410a2b35e75f345ed83",
+        "type": "FIX",
+        "text": " TreeBindingAdapter: Harmonize selection behavior when expanding nodes using setNumberOfExpandedLevels()",
+        "references": []
+      },
+      {
+        "id": "55ca528df8c219e350f42986f35007f93efcdd7a",
+        "type": "FIX",
+        "text": " TreeBindingAdapter: SelectAll",
+        "references": []
+      },
+      {
+        "id": "dd298b1e543468fc74ea7080078d3f19258f842f",
+        "type": "FIX",
+        "text": " TreeTable - Group Mode - Shows Null values",
+        "references": []
+      },
+      {
+        "id": "a3f54af48f75f6709c17d63ee8816bac3511b244",
+        "type": "FIX",
+        "text": " TreeTable: ACC Anouncement of selection state on data cells",
+        "references": []
+      },
+      {
+        "id": "f111251ba060b423982d121f53b81e4d83a80a5d",
+        "type": "FIX",
+        "text": " TreeTable: Expand/Collapse with OData v1 models",
+        "references": []
+      },
+      {
+        "id": "fc45bf132f9b902734beb23f8f0a8f2aedecff5a",
+        "type": "FIX",
+        "text": " TreeTable: Hide tree icon on leafs for screenreaders",
+        "references": []
+      },
+      {
+        "id": "d9e75779444d717800aa857a591d401495224679",
+        "type": "FIX",
+        "text": " TreeTable: Outline offset of tree icon in zoom levels \u003c 100%",
+        "references": []
+      },
+      {
+        "id": "f40a5cfd44ee3c3bcf1f96caf19ab18595029beb",
+        "type": "FIX",
+        "text": " TreeTable: Position of the TreeIcon",
+        "references": []
+      },
+      {
+        "id": "84c1327fca0e62381f451d7dc372a51df0b559c2",
+        "type": "FIX",
+        "text": " TreeTable: Property expandFirstLevel deprecated",
+        "references": []
+      },
+      {
+        "id": "1854f16101f3c2e3d155d4a1851aeb5a322749a6",
+        "type": "FIX",
+        "text": " TreeTable: Remove leaf icons from the tab chain in edit mode",
+        "references": []
+      },
+      {
+        "id": "7afbdb345e6ea90a8307a8c5acd6dd9f80b5339e",
+        "type": "FIX",
+        "text": " changes-1.42.json: remove duplicates",
+        "references": []
+      },
+      {
+        "id": "ac68ab8a120255c684b54ea3b661c34b3d078059",
+        "type": "FIX",
+        "text": " core.ClientTreeBinding: Fix for relative treebinding",
+        "references": []
+      },
+      {
+        "id": "b1a17f7ddbe85fb1e5e7abb63679b3c214fe501c",
+        "type": "FIX",
+        "text": " sao.ui.table.AnalyticalTable: fixes selection issue after re-bind",
+        "references": []
+      },
+      {
+        "id": "e0881b9d70adf614e44fd25f62ae2e2a265d228a",
+        "type": "FIX",
+        "text": " sao.ui.table.AnalyticalTable: fixes that \"group\" menu entry gets hidden",
+        "references": []
+      },
+      {
+        "id": "c465549f731286019bcc890895c1b106a7484a11",
+        "type": "FIX",
+        "text": " sap.m.CheckBox: Type conversion removed",
+        "references": []
+      },
+      {
+        "id": "951f10bfd69aef6902571092378d7570f81906f4",
+        "type": "FIX",
+        "text": " sap.m.InputBase: Fix error state visualization in table cell",
+        "references": []
+      },
+      {
+        "id": "e1df67a6f0803929398fa4e2fdf8da3f24a62e35",
+        "type": "FIX",
+        "text": " sap.m.Link / sap.m.Text: Bold style in AnalyticalTable summary row",
+        "references": []
+      },
+      {
+        "id": "32f8ca995227fe7584f648a482434c4f13efa848",
+        "type": "FIX",
+        "text": " sap.ui.AnalyticalTable: Accessibility: Adjust aria-level level information if no total sum row is displayed",
+        "references": []
+      },
+      {
+        "id": "906a28a83f0562faeee3dd65c27e91340d40dc6b",
+        "type": "FIX",
+        "text": " sap.ui.Table: enhance multi-column sorting",
+        "references": []
+      },
+      {
+        "id": "9b4f861940cdddca0fba86b81b177c39839c14f9",
+        "type": "FIX",
+        "text": " sap.ui.Table: fix duplicated id issue when custom menu is deleted",
+        "references": []
+      },
+      {
+        "id": "0bc5e7b6d31ca7a73fc29dd7d5b4169b83ae2aab",
+        "type": "FIX",
+        "text": " sap.ui.TreeTable/AnalyticalTable: Correct overriding of selection mode",
+        "references": []
+      },
+      {
+        "id": "f5d0ef6dc9ae0e1e88464fb12fc8e022d40ebb1d",
+        "type": "FIX",
+        "text": " sap.ui.TreeTable: Correct overriding of selection mode",
+        "references": []
+      },
+      {
+        "id": "d8c8d764af29452fd00439e21e0907e945ab8629",
+        "type": "FIX",
+        "text": " sap.ui.TreeTable: expand/collapse icon not indented correctly in RTL mode",
+        "references": []
+      },
+      {
+        "id": "83516a9cd21533cab6c08fbae7530addb663729d",
+        "type": "FIX",
+        "text": " sap.ui.model.ClientTreeBindingAdapter: return the corrent length of binding",
+        "references": []
+      },
+      {
+        "id": "fcb06e533961ba6b61efeb7df4f9254f9d8077b7",
+        "type": "FIX",
+        "text": " sap.ui.model.TreeBindingAdapter: fix \u0027toggleIndex\u0027 with fixed rows in table",
+        "references": []
+      },
+      {
+        "id": "bdf6bebaa64eaf637fdd1db4880b99a4e98ccc2c",
+        "type": "FIX",
+        "text": " sap.ui.model.odata.v2.ODataTreeBinding: fixes timing issue with navigation properties",
+        "references": []
+      },
+      {
+        "id": "02a2799a8f680423f61dbd1b5f2693f3df41046a",
+        "type": "FIX",
+        "text": " sap.ui.table.(Analytical)Table: fixes removeColumn return type to return the removed column",
+        "references": []
+      },
+      {
+        "id": "11996f199facbbff740676c505150661a7c492c4",
+        "type": "FIX",
+        "text": " sap.ui.table.* test pages: Adds UTF8 encoding to test pages",
+        "references": []
+      },
+      {
+        "id": "682eb375891431148a9369d488d4d330cf36bd76",
+        "type": "FIX",
+        "text": " sap.ui.table.*: ACC - Selection mode announcement",
+        "references": []
+      },
+      {
+        "id": "22860621fbc36eeec3ffa2d58682aa0bbfda1fe0",
+        "type": "FIX",
+        "text": " sap.ui.table.*: ACC Announcement of Selection on RowHeaders",
+        "references": []
+      },
+      {
+        "id": "c08dcead4def7679609274b84d997d5c3c1eb4f3",
+        "type": "FIX",
+        "text": " sap.ui.table.*: ACC, fixes duplicate DOM id for column labels",
+        "references": []
+      },
+      {
+        "id": "5fddb7e7f2964ae48b0b604e99779fec72276d94",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Accessibility - Improve labeling in multi header case",
+        "references": []
+      },
+      {
+        "id": "777ee8eca703a65fe258bf4ccc730489a692ae27",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Always update the top position of the vertical scrollbar after rendering.",
+        "references": []
+      },
+      {
+        "id": "f41bc06a402444f8b358106df188e026c39e7f99",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Apply padding for touch group header menu button only for non-desktop devices",
+        "references": []
+      },
+      {
+        "id": "09b7947bfef2696612e13d5c1a5ef9736956c594",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Aria-labelledby association of cell controls to column headers added",
+        "references": []
+      },
+      {
+        "id": "ad38e561dbf372a05d69e628854c3a7c77cdf444",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Avoid error when cell control does not provide an accessibility info.",
+        "references": []
+      },
+      {
+        "id": "17f17e6a09d75544d224bcfe0d3b193aae0b482e",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Avoid error while reorder columns via D\u0026D",
+        "references": []
+      },
+      {
+        "id": "0becf564892b25f7233e382a1b1d64f1b21a04b3",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Avoid exception when opening the cell context menu",
+        "references": []
+      },
+      {
+        "id": "d5e28b123a1bb56e7a2fec736bc6fd8efa289828",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Avoid focus outline issues in Internet Explorer",
+        "references": []
+      },
+      {
+        "id": "d923c5dee8e8c2199433c58e65270dfa28248dd5",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Avoid no data visualization during refresh",
+        "references": []
+      },
+      {
+        "id": "95df02b0256785da69e1b34b95097f286819c8c3",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Do not fire CellClick / Do not select on click of interactive cell content",
+        "references": []
+      },
+      {
+        "id": "04b073ac0b4b6dd113899c45a1d068c157aad0d0",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Ensure visibility of scrollbars in IE on Win 10",
+        "references": []
+      },
+      {
+        "id": "d4b5add7e2ebe1420ec82311e231cfbd72410d54",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Exception while column reordering when dummy column exists",
+        "references": []
+      },
+      {
+        "id": "806b513303b8a55e209f048fd6886721cf773aa3",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix \"noData\" behavior",
+        "references": []
+      },
+      {
+        "id": "b5eac3c65bd46aca27d66281d4ce12bd64417e44",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix content height when custom row height is defined",
+        "references": []
+      },
+      {
+        "id": "7b5d352040c2a04341e1e5321aeefd25270ca3cb",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix overlapping of cells and headers on indented rows (e.g. grouping)",
+        "references": []
+      },
+      {
+        "id": "4782cc292966729cb1adaf9d8eac0b8b149ac319",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix positioning of table content in IE/Edge in case of row actions",
+        "references": []
+      },
+      {
+        "id": "14b0c359ceef5406032e2c238caab8a5a1439012",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix positioning of table content with row actions (no scrollbar case)",
+        "references": []
+      },
+      {
+        "id": "9cc3406eddd93442cd26f50553c818d9527da038",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix row content flash on vertical scrolling.",
+        "references": []
+      },
+      {
+        "id": "8b7bcc097d848d9e2de5f76566fd9dda2b7b5a9d",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix scrollbar alignment on touch enabled laptops (combi devices)",
+        "references": []
+      },
+      {
+        "id": "9fed269b095c518c1f4405aca2b0eb299598124c",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix tooltip of select all button",
+        "references": []
+      },
+      {
+        "id": "b32e63f4aaec1364701e62d9b42fa8b9a1a7db43",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fix wrong determination of the size of a table element due to IE specific behaviour.",
+        "references": []
+      },
+      {
+        "id": "f39edef30cf252397642561e817205680bc38f9a",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Fixes row selection for selectionBehavior RowOnly",
+        "references": []
+      },
+      {
+        "id": "141f39882ff1f0b52edee5d203d3b4fc17dd4999",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Focus visualization of table cells",
+        "references": []
+      },
+      {
+        "id": "b21f7afb23a0a83ba77c26dd4c807796096fcbe3",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Handle Cell click also when MatrixLayout is used in cell",
+        "references": []
+      },
+      {
+        "id": "01b74519caba053952105dbe9c9d1f6daf1a0ab7",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Hide selection tooltip on row header of empty rows",
+        "references": []
+      },
+      {
+        "id": "6b6b92e0e7acad6cad27e84627f9f15045a48f7a",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Keyboard Support: Fire cellClick event before selection",
+        "references": []
+      },
+      {
+        "id": "f9d875849521b663d08c071d9660dd7c1cc068b4",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Parameter \u0027width\u0027 of Column Resize Event should have unit",
+        "references": []
+      },
+      {
+        "id": "0ba8f4d38768cea31a58f6bb432d8b8d4ac32891",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Perform update of table sizes after group/tree update",
+        "references": []
+      },
+      {
+        "id": "01fb656b1e2c30565523aea5dd8bca921407b2e1",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Position Resize Bar initially out of visible area",
+        "references": []
+      },
+      {
+        "id": "4be64f343d103eba4808624e53578acf7ba3b0ac",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Restore focus on row (e.g. tree icon) after rendering",
+        "references": []
+      },
+      {
+        "id": "6ac2da16ed2d300736a80585cebe28431747de8f",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Screenreader Support Adaptations",
+        "references": []
+      },
+      {
+        "id": "5820d29d6d8a975dd5bff5ede5ffd8fcd5b05c1c",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Screenreader announcement of column header menu",
+        "references": []
+      },
+      {
+        "id": "d530301b06449882bfdd8db6573fa4f39f502653",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Scrolling to the last row when zoomed in/out in Chrome.",
+        "references": []
+      },
+      {
+        "id": "7cbb4b858a49af0d89b7faf59f400b41399e5949",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Select All icon not refreshed on binding update",
+        "references": []
+      },
+      {
+        "id": "c109e7ef8755b0a2a0f0b6177670063418db1c49",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Skip cellClick event in case of text selection",
+        "references": []
+      },
+      {
+        "id": "936a8a2cfcb7b1f7380c962d741dbec811446fda",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Smaller fixes",
+        "references": []
+      },
+      {
+        "id": "23ce5ed5e195f97c5e60abe488a92d637fb22ccc",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Suppress select all on empty table",
+        "references": []
+      },
+      {
+        "id": "396d46b2440cb0af320570d09e1c633e2010a5b0",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Tabbing in action mode when invisible columns exist.",
+        "references": []
+      },
+      {
+        "id": "f484e44f8fcbb407096d233e0f06d9020a2d1667",
+        "type": "FIX",
+        "text": " sap.ui.table.*: Workaround sub-pixel problems when zooming is not 100% in Chrome",
+        "references": []
+      },
+      {
+        "id": "3fc3a659a9c8200862b27ae578d3bf1087a71728",
+        "type": "FIX",
+        "text": " sap.ui.table.*: added check for onClick event to see if it was handled already",
+        "references": []
+      },
+      {
+        "id": "898fa56ac9f32735d94b2acd7268691571aaa4dc",
+        "type": "FIX",
+        "text": " sap.ui.table.*: fixes \"Click to select\" Tooltip for special rows and unbound table",
+        "references": []
+      },
+      {
+        "id": "805d1b3e248ee1f19fdb0cdde353d6b88114bb82",
+        "type": "FIX",
+        "text": " sap.ui.table.*: fixes cell context menu in (Analytical)Table",
+        "references": []
+      },
+      {
+        "id": "0da10ef185a2771a0d0566a639552e3820d1c342",
+        "type": "FIX",
+        "text": " sap.ui.table.*: fixes handling of aria texts and tooltips for row selection",
+        "references": []
+      },
+      {
+        "id": "46917a4329ef315bfe671dc63b92b8d2c32caacb",
+        "type": "FIX",
+        "text": " sap.ui.table.*: fixes left and right paddings for all content densities",
+        "references": []
+      },
+      {
+        "id": "59c04fe371e693b5b595cbe45f0680ab8813cdfe",
+        "type": "FIX",
+        "text": " sap.ui.table.*: fixes navigation to last page with paginator",
+        "references": []
+      },
+      {
+        "id": "5346495aef65ae0bd121bf1cebaad76faf1cdb8c",
+        "type": "FIX",
+        "text": " sap.ui.table.*: fixes that bindRows was not called when table was bound via XML view",
+        "references": []
+      },
+      {
+        "id": "131611e0117e34b1343545d835e140b7d0d94590",
+        "type": "FIX",
+        "text": " sap.ui.table.*: fixes that the visibleRowCount can become smaller than number of fixed rows",
+        "references": []
+      },
+      {
+        "id": "6ea3b810a9ff3364e0ecc043b2bb2b6060ae203d",
+        "type": "FIX",
+        "text": " sap.ui.table.*: fixes usages of em and px based column widths at the same time",
+        "references": []
+      },
+      {
+        "id": "07cf6b26a9e2a578f72853939ea9fe25bb566411",
+        "type": "FIX",
+        "text": " sap.ui.table.*: getDefaultRowHeight to consider the content density",
+        "references": []
+      },
+      {
+        "id": "b579971db541ae99c19236fe98833407b73ac2fe",
+        "type": "FIX",
+        "text": " sap.ui.table.*: null-ref when _syncColumnHeaders is called w/o table DomRef",
+        "references": []
+      },
+      {
+        "id": "3c4c156e7d6469f983b792a6a9fc3b56c5bb117b",
+        "type": "FIX",
+        "text": " sap.ui.table.*: prevents default for SPACE key when row select",
+        "references": []
+      },
+      {
+        "id": "e23d1b59ff729eabca9d06266eb58e80a4dd6772",
+        "type": "FIX",
+        "text": " sap.ui.table.*: rowSelectionChange Event not triggered",
+        "references": []
+      },
+      {
+        "id": "b80bac463c0f3baddd8ae1e7595a02d2079b0e4e",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalColumn: Consider binding quick info for tooltip only when no custom tooltip is set",
+        "references": []
+      },
+      {
+        "id": "491a7891711f9c61355981b81457306a40806aab",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: Fix Screenreader anouncements for expand state and level information",
+        "references": []
+      },
+      {
+        "id": "08c5c55ad341017a16e58967f4d690973506396a",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: Fix focus visualization on group headers",
+        "references": []
+      },
+      {
+        "id": "7c61319789ab3aa114e821e722f3f2fdd6707e39",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: Fix toggle selectAll",
+        "references": []
+      },
+      {
+        "id": "d37a7d2386740322582846fdcd4d7950e8a547c9",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: Group Header Menu Buttons should only appear on tablets/phones",
+        "references": []
+      },
+      {
+        "id": "7c7c7d44454fe7629d20bb7519a72386765ac65e",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: Removed Checkboxes in group header in HCB theme",
+        "references": []
+      },
+      {
+        "id": "6aa8f04105815151b63e3dc389951352d426e626",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: Touch Menu could overlay text",
+        "references": []
+      },
+      {
+        "id": "2b4eaef0aa71787cc48df32c03e0e3079c92caf5",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: Updates documentation",
+        "references": []
+      },
+      {
+        "id": "e8fd2de5e0b40327cb74640a87e363a1e5599cd6",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: fix touch button overlay",
+        "references": []
+      },
+      {
+        "id": "4d122181483c3db0907e2c6c30f3070884097a65",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: fixes determination of whether to create column menu entries for filter",
+        "references": []
+      },
+      {
+        "id": "74c9fe3735b2ddc6fd74b4eacce3b1404f204996",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: fixes exception when table is not bound but rows have context",
+        "references": []
+      },
+      {
+        "id": "125e44a7b56e18d51410d6ad910bb043dfbbe9ba",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: fixes issue with busy indicator after updateAnalyticalInfo",
+        "references": []
+      },
+      {
+        "id": "d7adad124fc09fb93c36713758d1172208ab822b",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: fixes that column move changes grouping order",
+        "references": []
+      },
+      {
+        "id": "69af36940214032c9ab6af841dbd870fb017000d",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: fixes that groupHeaders don\u0027t get removed by unbindRows",
+        "references": []
+      },
+      {
+        "id": "2ea84145d99130901c014ddc9286c972b594930a",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: fixes that selectAll cannot be removed if no leaf was selected",
+        "references": []
+      },
+      {
+        "id": "71f35263469844cd5c0d51b95560867fdb10757b",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: forces binding to fire change after updateAnalyticalInfo",
+        "references": []
+      },
+      {
+        "id": "e98178df4be4a802718dcf0b305559109f16d2dc",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: implements a stricter check of selectionMode and Behavior",
+        "references": []
+      },
+      {
+        "id": "c34e028843b0a2e978b89e9b245fc8397a15e84b",
+        "type": "FIX",
+        "text": " sap.ui.table.AnalyticalTable: issue with grouping header of smart table",
+        "references": []
+      },
+      {
+        "id": "481fba1f9edfe2cdcc5add7dd5edf0d7c2fb0dcc",
+        "type": "FIX",
+        "text": " sap.ui.table.Column: HTML entities should be encoded in JSDoc.",
+        "references": []
+      },
+      {
+        "id": "4892064d3b77e98e3f267cf6d2736fe3de24cdde",
+        "type": "FIX",
+        "text": " sap.ui.table.Column: correct filterType binding syntax example",
+        "references": []
+      },
+      {
+        "id": "0d87e4dcf656ae8e6a3f4873d2ca18bd762b6b63",
+        "type": "FIX",
+        "text": " sap.ui.table.Column: fixes _setFilterValue is not a function",
+        "references": []
+      },
+      {
+        "id": "2063912d29499e1389a2f6fdf61e399db340dbcb",
+        "type": "FIX",
+        "text": " sap.ui.table.Column: sort order indicator for multi column sorting",
+        "references": []
+      },
+      {
+        "id": "4a7ef5b13de968a0397d32f319c598ce21f74d8f",
+        "type": "FIX",
+        "text": " sap.ui.table.ColumnMenu: Fixes issue with setValue on customFilterButton",
+        "references": []
+      },
+      {
+        "id": "9068a3f596738d766999a75973d5de4d52c1a460",
+        "type": "FIX",
+        "text": " sap.ui.table.ColumnMenu: fixes issues with item invalidation",
+        "references": []
+      },
+      {
+        "id": "15cfb9095047a9654d6cafe8e0923457cc6198c8",
+        "type": "FIX",
+        "text": " sap.ui.table.DataTable: Fix oRowContext in toggleOpenState event",
+        "references": []
+      },
+      {
+        "id": "ea83daf551c1039aa672b7c5fa8679d925adc07c",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - CSS corrections for column headers",
+        "references": []
+      },
+      {
+        "id": "d489294e988158c29eafd8d627c12a836bc3fd86",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - column header spans in XLM views",
+        "references": []
+      },
+      {
+        "id": "232d20f5d6f82568a7feecb7131f99c9655be33b",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - filter is not set",
+        "references": []
+      },
+      {
+        "id": "ca8569ab2f4a28fdd5da8ccd3c1eb25d82fd5607",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - infinite rerendering",
+        "references": []
+      },
+      {
+        "id": "cfb560462f1bb2a47c51ce40014138ffda80c50d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - row selection column is too wide in IE/Edge",
+        "references": []
+      },
+      {
+        "id": "68af49337c79fd0b6e89d795de2104897fefa054",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - sort and filter icons in IE",
+        "references": []
+      },
+      {
+        "id": "ec334ec05c42ddd65a45cbc6d089fec2803951ef",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - space key is suppressed in the toolbar",
+        "references": []
+      },
+      {
+        "id": "b138abbb3faeefc141a0a2201905df236ebbc052",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - touch scrolling in IE and Edge",
+        "references": []
+      },
+      {
+        "id": "1328f53fc6e0084d74366f3c632bb1e8fe162280",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - vertical scrollbar is not updated",
+        "references": []
+      },
+      {
+        "id": "96e35e6c3b69659bf1fc1945b363538bae6bfa64",
+        "type": "FIX",
+        "text": " sap.ui.table.Table - wrong number of displayed rows",
+        "references": []
+      },
+      {
+        "id": "4a8659a003a2bd208a68c6050d056d83e1db6b11",
+        "type": "FIX",
+        "text": " sap.ui.table.Table ACC test page to correctly read sap.m.Select control",
+        "references": []
+      },
+      {
+        "id": "9b49cbcbebb692e61854af1cdbff919ed175abec",
+        "type": "FIX",
+        "text": " sap.ui.table.Table HCB fixed",
+        "references": []
+      },
+      {
+        "id": "3473d9eb696a4e378e63190433f0679dfa293335",
+        "type": "FIX",
+        "text": " sap.ui.table.Table HCB fixes",
+        "references": []
+      },
+      {
+        "id": "333387c9cf2014b873dab91b8ec0be194458f888",
+        "type": "FIX",
+        "text": " sap.ui.table.Table fixes",
+        "references": []
+      },
+      {
+        "id": "baa894c55227ce17e27058f24a52ef0a76a396c6",
+        "type": "FIX",
+        "text": " sap.ui.table.Table hcb fixes",
+        "references": []
+      },
+      {
+        "id": "e502f8ba1c412fbf4e55300da74559b15fc5e946",
+        "type": "FIX",
+        "text": " sap.ui.table.Table with VisibleRowCountMode.Auto: incorrect number of rows",
+        "references": []
+      },
+      {
+        "id": "3dc102ac86e3f6c1b1472ee0d025072a5f273b7a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: AutoBusyIndicator",
+        "references": []
+      },
+      {
+        "id": "f55c33d727a85ea2b88b13b5cb83513b6b901cc6",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Avoid double announcement of columnheaders in VPC screenreader mode",
+        "references": []
+      },
+      {
+        "id": "0135bdb3c7251c9f2347ea18b4f9a0aacdaa2db3",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Avoid errors on duplicate calls of destroy",
+        "references": []
+      },
+      {
+        "id": "9cf327200caf3a3f64156e287c98fa58f38a98a3",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Bugfixes after grouping change",
+        "references": []
+      },
+      {
+        "id": "bbdbaa74b753586281a033a7fac012d8e0201da3",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: BusyIndicator gets not removed when fixed rows are requested",
+        "references": []
+      },
+      {
+        "id": "bb01b6f53dcd6b6ef28701ae0280f054ed572b65",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Cleanup cell paddings",
+        "references": []
+      },
+      {
+        "id": "6163f3948dd666c6f335cb21021982be6e9499b3",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Column Header was not aligned to column",
+        "references": []
+      },
+      {
+        "id": "fd1151d8ed028b04f35ceacfad2543c18c77be73",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Column Resizer rendered at wrong position",
+        "references": []
+      },
+      {
+        "id": "1942e182897ec65d0b0096691f1d54e76b7f8cc8",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Column Resizing went wrong when using em",
+        "references": []
+      },
+      {
+        "id": "015f316c666f43c84b5a07f32e99cedae2bfd3dd",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Determination of row height can fail",
+        "references": []
+      },
+      {
+        "id": "6198910664a72925eddd7776c3a6766b349caadd",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Enabled Fixed Column Indicator for Header",
+        "references": []
+      },
+      {
+        "id": "3bdc5fcfe783d52235e87e399342bd1d6f05c548",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Enhancements for large data sets",
+        "references": []
+      },
+      {
+        "id": "8f8474a78378e8310959b4cc226df43c9329ea9c",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Ensure visible scrollbars on Safari / iOS",
+        "references": []
+      },
+      {
+        "id": "8296694af561b7e5f78b9b2f252bd973dd043ca4",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Ensure visual focus on column menu when opened via keyboard",
+        "references": []
+      },
+      {
+        "id": "4acc7f3212961f9d160c109fa236d0298edd1042",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix Drag\u0026Drop for visibleRowCountMode \u0027interactive\u0027",
+        "references": []
+      },
+      {
+        "id": "9396382f0769789b6294cde6e5eb6b752125d30f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix HCB Scrollbar Border",
+        "references": []
+      },
+      {
+        "id": "9c595ef29d0faafacb4df21230724842b398f04e",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix HCB Scrollbar Border",
+        "references": []
+      },
+      {
+        "id": "d62a3bb10261ed7509860c05d273d1dac6e0c3e6",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix Screenreader announcement of row headers in VPC mode",
+        "references": []
+      },
+      {
+        "id": "87783affe6295bf52f486c07783c034accb52c8a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix Scrollbar Height",
+        "references": []
+      },
+      {
+        "id": "df7b3fbaef093ec9f18011b78aca5dcf0f23f4b9",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix Shift+TAB handling (move focus from content to header)",
+        "references": []
+      },
+      {
+        "id": "f5f1fb3b4091dda5c45bac3304595c44be957115",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix Unit tests for IE9/10",
+        "references": []
+      },
+      {
+        "id": "83fd0abbd9c745db80f98c5e851f930649a4839d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix exception in _onColumnMoved",
+        "references": []
+      },
+      {
+        "id": "678f87a9c45b90303d79099ccc51fc017cd2c940",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix positioning and focus visualization of No Data area",
+        "references": []
+      },
+      {
+        "id": "3ffe87ce71a9671b882f67e1405a1f788492314a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix screenreader announcement of column header tooltips",
+        "references": []
+      },
+      {
+        "id": "86a724821a03607419e3cd78557b1be552984ea4",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix setFirstVisibleRowCount",
+        "references": []
+      },
+      {
+        "id": "6c9f0c71ef52bd1d621ea6e6fa8b146fdc583f95",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fix tabbing out from row header",
+        "references": []
+      },
+      {
+        "id": "b373392399d38e74e31e1dbdb97f97770d25ac8f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fixed Scrollbar Flickering Bug",
+        "references": []
+      },
+      {
+        "id": "f746bad8e5c126a560f8a769b65f0b1ee80acbd8",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fixed Variable Row Height and Scroll Position",
+        "references": []
+      },
+      {
+        "id": "1054e860650b850f230d8f5582a331eabb1bbfa2",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fixes for HCB theme",
+        "references": []
+      },
+      {
+        "id": "551cd928a4312326068fdde27ef8be5e7fb36beb",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Fixes unit test issues and resize trigger",
+        "references": []
+      },
+      {
+        "id": "52f93abf3e47b9b2b4216b6cea0736cc31ced19d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: General Fixes for Cozy and Touch mode",
+        "references": []
+      },
+      {
+        "id": "678b9bfe64294d250244964d9b2f232aec61acb9",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Grouping text is too big in HCB and BC",
+        "references": []
+      },
+      {
+        "id": "6fbed33b4d1891671ea3e023dc4d478a12f92886",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Header/Footer height issue",
+        "references": []
+      },
+      {
+        "id": "62238058e5159ebd5094f2936db37ad82457c930",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Horizontal scroll position is restored after rerendering.",
+        "references": []
+      },
+      {
+        "id": "cfc1007b6e6d435f0073225198ef442aa5d68651",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Horizontal scrolling by clicking in the scrollbar",
+        "references": []
+      },
+      {
+        "id": "6e6089ac7c3cd7a91222610411b9e8f21e06d3b7",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Horizontal scrolling by clicking in the scrollbar (change 2)",
+        "references": []
+      },
+      {
+        "id": "1b1eedd5e5a5246d192cb9560eda33fb981b950d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: IE should work with subpixel row height",
+        "references": []
+      },
+      {
+        "id": "3f8f23de66fcf34a9b76ccac61700c0c362a2baf",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: IE9 did not set correct row height",
+        "references": []
+      },
+      {
+        "id": "d8616c1458d89dd64d6894d25e5b0298f74c45ae",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Ignore the additional empty row at the end in the vertical scrolling feature.",
+        "references": []
+      },
+      {
+        "id": "a31393aa226ef116bc19742e815b8cab5772ca6f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation",
+        "references": []
+      },
+      {
+        "id": "deac058b49b340b66ac38a46e642166ead39195e",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 10",
+        "references": []
+      },
+      {
+        "id": "200eff0eb1441fa7927d4a0e11caa0fa45054101",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 11",
+        "references": []
+      },
+      {
+        "id": "b7b6f85a39cc04eae6578c862a9293e7076f2cce",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 3",
+        "references": []
+      },
+      {
+        "id": "c192ed35ecf8f49fc12048f38bd018bd34e54b8e",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 4",
+        "references": []
+      },
+      {
+        "id": "080d3084cf640301b06be941ea91a8c2a633330f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 5",
+        "references": []
+      },
+      {
+        "id": "1b8a532ad15d6ab92dd94ff1604c1c151fb794d3",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 6",
+        "references": []
+      },
+      {
+        "id": "307bd5e45da341dbf767aa368b2420f556246029",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 7",
+        "references": []
+      },
+      {
+        "id": "185b071ea10a65149c072c0643a2e52c7f0d6948",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 8",
+        "references": []
+      },
+      {
+        "id": "02d1e3897cb6a7948549582cd742fc23007be65b",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part 9",
+        "references": []
+      },
+      {
+        "id": "18adbe35de516f9075c4788af8739b5dfc440964",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Improve ACC implementation - Part2",
+        "references": []
+      },
+      {
+        "id": "b0d8098e4de4d5d5289126de0e9c3ed1b818b4eb",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: JavaScript exception by column resize",
+        "references": []
+      },
+      {
+        "id": "91d4fa51dbd84854cd09659227e6f2f9a3e9fbd3",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Missing Fixed Column Header Border",
+        "references": []
+      },
+      {
+        "id": "46579f0fa9f6b3ec10f4de5a60f0f01a2d02d377",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Missing border-right on group header in HCB",
+        "references": []
+      },
+      {
+        "id": "7306ceed5ac6d292a9514001cd6b0c2543c971bd",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Mousewheel scrolling",
+        "references": []
+      },
+      {
+        "id": "273d217fd8df54a38956544e6b9b5e293850ce2a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Multiple Fixes for Table and Touch",
+        "references": []
+      },
+      {
+        "id": "a6d1b10d4f9f898a09216bb475b1eb67f9ae5ae6",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Prevent wrapping of fixed area",
+        "references": []
+      },
+      {
+        "id": "3d550cb3749c17fb384a82a3b16f8117f7a176bd",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Problem with Check Box in Tree Table",
+        "references": []
+      },
+      {
+        "id": "364b040a86e659170da90d6523edb51c498e940e",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Provide keyboard and screenreader support for overlay",
+        "references": []
+      },
+      {
+        "id": "d0572cc107906ae955ceec84cac882d6ea001f24",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Removed initial tooltip from empty rows",
+        "references": []
+      },
+      {
+        "id": "7a8d6824e2bd02992247534ed87db68b1ac4363a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Removed tooltip from empty rows",
+        "references": []
+      },
+      {
+        "id": "a47672b70e237343cbd047627c5bdcaa75c8d004",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Resize Handler did not work correctly in Touch Mode",
+        "references": []
+      },
+      {
+        "id": "f0417bb314ceb681b314c160084364a144c30eba",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Screenreader announcement of column header tooltips",
+        "references": []
+      },
+      {
+        "id": "10f89b1d627d6c09f855e8c9be6b4251bd34df7f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: SelectionBehavior Row[Only] when clicking on dummy td",
+        "references": []
+      },
+      {
+        "id": "1d0f1fa2f1890c93cf4e6cec335f25360a795dad",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: SuppressReset for rows aggregation if bound",
+        "references": []
+      },
+      {
+        "id": "10e3a315496ef76b5e063315ce8bc7280d51c412",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Table renders even if column was destroyed",
+        "references": []
+      },
+      {
+        "id": "f27126393ea85f39f57e08a7b2ec0a2b0a97ae4d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Table width expanded by Scroll Bar width",
+        "references": []
+      },
+      {
+        "id": "525ab69c86cd7c4555962f8e23bd5601c583a032",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: The resize handler is registered in a promise instead of a timeout.",
+        "references": []
+      },
+      {
+        "id": "bf6a3bfeeb4c2b6298f6f0832337e8167b093ba6",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Update noData text when binding length has changed",
+        "references": []
+      },
+      {
+        "id": "72e4ecf71a692a874c43d6ed0f1cc8ae0f68c256",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: Variable Row Height fix for Scroll Knob",
+        "references": []
+      },
+      {
+        "id": "2347c50585a435b0b01db99fd48b76fe02cb682c",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: VisibleRowCountMode Auto when no parent height set",
+        "references": []
+      },
+      {
+        "id": "29ce7d2a4ed47a2aba0300e6ddd74e678edcef0d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: _calculateUsedHeight did take too much height",
+        "references": []
+      },
+      {
+        "id": "c2a627186a6a652e690ace339030f7e1761e4a85",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: added keyboard support for pixel-scroll mode",
+        "references": []
+      },
+      {
+        "id": "4c72a3b774d2482b23f2394fccd90f711b65a4ba",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: avoid backend request when selectAll is clicked",
+        "references": []
+      },
+      {
+        "id": "276b1e6d709467f3bd2ad079691aa0d3af7ad6bd",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: border styles in hcb and bluecrystal",
+        "references": []
+      },
+      {
+        "id": "5419805d98249d01b81241c09b6c0c84e9a6cab6",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: busy timeout made independent of rendering",
+        "references": []
+      },
+      {
+        "id": "26ace73f181f32fd5310efda01379b6f3fb009fa",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: calculation of scrollbar length changed to consider fixed rows",
+        "references": []
+      },
+      {
+        "id": "bcc8c59cc6c0da13fdafca18d3859ee1d376bb7d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: call _updateTableCell",
+        "references": []
+      },
+      {
+        "id": "710e2bd06386c12de5a48af290dc18ea8d60390d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: call rendering event delegates for DOM patching step",
+        "references": []
+      },
+      {
+        "id": "f03eb0546c8cb31d4e540000447b061ef311ec97",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: check if ItemNavigation is undefined",
+        "references": []
+      },
+      {
+        "id": "1d73712804efb26ff4e1ae12a4681a1f532506fa",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: column freeze for columns outside visible area",
+        "references": []
+      },
+      {
+        "id": "26ce2e219331142cf015bd20ac7d278f3bf34c30",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: columns with minWidth disappear after window resize",
+        "references": []
+      },
+      {
+        "id": "600600d24334c655da58e19f3d3de194a1ef2319",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: context menu for a column header with span has incorrect position",
+        "references": []
+      },
+      {
+        "id": "24c763df6e7813699755a23c6e495548f77cb18a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: corrects rowHeights when transitions used to display table",
+        "references": []
+      },
+      {
+        "id": "d3827879cde3a48f9bb08db15633fc3097095247",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: exception \"Cannot read property \u0027_onTableResize\u0027 of undefined\"",
+        "references": []
+      },
+      {
+        "id": "077cce9fd18888c8bdc084edd9e9aa3de989b450",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: execute updateBindingContexts before rendering",
+        "references": []
+      },
+      {
+        "id": "9e571814ccc5a094154970795ac517ec81ef9356",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fix css img urls",
+        "references": []
+      },
+      {
+        "id": "fcaa4a24791d297c0600f57dd1f8ee010830a95b",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fix for Visual Tests",
+        "references": []
+      },
+      {
+        "id": "fb084c51c8e48f4f2eae4f34c27bdfd6f3200674",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fix invisible column header after column with HeaderSpan",
+        "references": []
+      },
+      {
+        "id": "9d86928e4885905a544cf3d55eb2d2748c3acc15",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixed columns do not show a resize ruler",
+        "references": []
+      },
+      {
+        "id": "4ee59ede295d76c29e9a8bf1b42642bb9702882e",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixedColumnCount calculation with hidden columns in aggregation",
+        "references": []
+      },
+      {
+        "id": "ee33e46c37a5fcaa1638585f8e3c7497b5dc1bf8",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes RowCountModeAuto without binding",
+        "references": []
+      },
+      {
+        "id": "2f751120dff4b942d5fc6519b263cdf0fb8b835d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes ScrollBar visibility",
+        "references": []
+      },
+      {
+        "id": "3622d5d2be969559ac05345b2b78fcc1d4c2c951",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes column resize on combi-devices in Chrome browser",
+        "references": []
+      },
+      {
+        "id": "be2700acd2ed5d9981b1c84f57ccf1911d9565a0",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes display issue with MultiLabels and fixedColumnCount",
+        "references": []
+      },
+      {
+        "id": "cc8265cc28b8d6103df97b9c010db9427e6414d9",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes endless loop in IE if the table has no width",
+        "references": []
+      },
+      {
+        "id": "8e2fc72fec7793db5046d98881e507daced0812e",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes events for columnResize on dependant columns",
+        "references": []
+      },
+      {
+        "id": "265a8727e85b916fe7d5b209afaa47553786ae67",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes filter event for custom filter on cell filter",
+        "references": []
+      },
+      {
+        "id": "8012bc7c0b77fa77fca4d65733b72e04d1f68cb9",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes issue with delayed call of scrollbar timer",
+        "references": []
+      },
+      {
+        "id": "482899c2b57806f5af36140b93e1845b56598e06",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes null-ref issue with rowSelector of rows which do not have a parent",
+        "references": []
+      },
+      {
+        "id": "2efd0e45ab77ff8de3510a34c8ba2b390e249a6b",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes paginator update on setFirstVisibleRow",
+        "references": []
+      },
+      {
+        "id": "0d92eb42c7043efb773a20f3f2a6d2620190e9c4",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes regressions related to table rendering - async DOM/ControlTree for updateTableSizes",
+        "references": []
+      },
+      {
+        "id": "75425532569b2899bf9d705460d6c3db4bc74af6",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes requestCounter for changing bindings while request is still pending",
+        "references": []
+      },
+      {
+        "id": "87277c3d3c31b2b207e003b6746082ae0921dfa9",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes scrollbar width/height for MS Edge",
+        "references": []
+      },
+      {
+        "id": "23eafb79a1ff5483d165a4b52c18a552d154f765",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes selection of fixedBottomRows",
+        "references": []
+      },
+      {
+        "id": "882e87c7f70f4bc8e57955c26bf2cddd5380959c",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes showOverlay for visibleRowCountMode Auto",
+        "references": []
+      },
+      {
+        "id": "883def30406dd2bd7bee5a9fd8c07a4c42e67818",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes that the firstVisibleRow can be set",
+        "references": []
+      },
+      {
+        "id": "58c1dc8451dcbdb209636a8c4555427a7be5a7d7",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes the scroll position after sort or filter",
+        "references": []
+      },
+      {
+        "id": "3422c318ac14e9092cbffa8cfe69de8cd785cfa2",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes undefined DomRef in delayed call",
+        "references": []
+      },
+      {
+        "id": "f89facbaace7559657566ce2b75fb7e385be93f4",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: fixes updateTableSizes",
+        "references": []
+      },
+      {
+        "id": "3ffac6e2a73c1f58c6ff18fb66917039cd2e6a82",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: getFocusDomRef to return focused DOM ref from ItemNavigation",
+        "references": []
+      },
+      {
+        "id": "64a283752cc947c2a341fcc97e4988f8fd987869",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: hAlign Right in RTL mode",
+        "references": []
+      },
+      {
+        "id": "c24ffa864802140f1fd4b78e91d743c9b43dd541",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: header row is too high",
+        "references": []
+      },
+      {
+        "id": "65e0dc273dad24d63e79f35edcc147b54b778050",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: improper busy indicator \u0026 noData issue fixed",
+        "references": []
+      },
+      {
+        "id": "f2371b959cf4262e958432cd9be9475d37a3de1f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: incorrect column header widths",
+        "references": []
+      },
+      {
+        "id": "dd94d9c4519b8ae359c80b472eeabb6ed6a46b1c",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: incorrect column width by hidden column headers",
+        "references": []
+      },
+      {
+        "id": "65e66db2f2f582f549e8588bcdaaee00575d5bce",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: incorrect header height",
+        "references": []
+      },
+      {
+        "id": "6f8d5bd1d58c7e4ffdd52c3560ac59d7135ef07b",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: incorrect header widths in a Dialog",
+        "references": []
+      },
+      {
+        "id": "4bc43e34e9f53de9f40aa7674884504cdf883a5c",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: incorrect header widths in a splitter",
+        "references": []
+      },
+      {
+        "id": "e3a62c905079b9442ec5ef43ec2f32696bfe8867",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: incorrect horizontal scroll position in RTL mode",
+        "references": []
+      },
+      {
+        "id": "6ccbfc264bcc719639ee3e2eaa3894c001524ea3",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: itemNavigation invalidation on DOM patching",
+        "references": []
+      },
+      {
+        "id": "a008ad04d9269cecaf6ae6dbc5ea68a618a89970",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: let ScrollBar appear with variableRowHeight",
+        "references": []
+      },
+      {
+        "id": "4f194eb97197edc7ad8c872c593e38f3815a4a7f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: mark rowSelectionChange event when fired by user interaction",
+        "references": []
+      },
+      {
+        "id": "0d424ad997791488df4201006977195217f89552",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: minimal column width is not taken into account",
+        "references": []
+      },
+      {
+        "id": "017251d29aa8bf10a1eb20c9915ed09b515717ac",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: mirror tree table chevron in RTL mode",
+        "references": []
+      },
+      {
+        "id": "d8bfa3adc880871634a6025b4391bb2d69604d26",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: missing rows when table\u0027s parent has siblings",
+        "references": []
+      },
+      {
+        "id": "bf990f9e641388f42c321c1c99127475977d4d02",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: node label alignment issue",
+        "references": []
+      },
+      {
+        "id": "eba658b0a27fe2cb57d42c2cc22ddf0e87325ae0",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: only visible column is resizable",
+        "references": []
+      },
+      {
+        "id": "d733e0c7a955dade4c42b574d0753fb4451ad58d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: optimization for Variable Row Height",
+        "references": []
+      },
+      {
+        "id": "2dc13d36b4242244564fd983df679a1dd7515fbc",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: pixel-scroll fix",
+        "references": []
+      },
+      {
+        "id": "e2ac329f5e1eaa817d559dbcf5cf5a2c78023731",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: prevent column wrapping",
+        "references": []
+      },
+      {
+        "id": "fbc403a9f4afa987aea894ca324f2afea15ba0ce",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: prevent rowSelectionChange event on implicit row selection change",
+        "references": []
+      },
+      {
+        "id": "61237c5041a376e99eef6f0d35053cecaa4e505b",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: prevents invalidation if tooltip is set",
+        "references": []
+      },
+      {
+        "id": "6b28cb04b418569b0490a0537011e4322699676a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: problem with column header scroll",
+        "references": []
+      },
+      {
+        "id": "fef2fe1f72788517f43b7217cfbf43bfd9f43eda",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: recreate rows before rendering when row template changed",
+        "references": []
+      },
+      {
+        "id": "a3d34dcf7500ff99ea7613574fe6363b1da99404",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: refreshRows getting called without binding",
+        "references": []
+      },
+      {
+        "id": "78cc21ec3d682b5fcf8179f89b4569349fef756a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: register resizeHandler synchronously if table has no size after rendering",
+        "references": []
+      },
+      {
+        "id": "0a94d56e99ebe5204bd8b74bbe96a432243e8aec",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: remove last right border on cells",
+        "references": []
+      },
+      {
+        "id": "2006c08c513494d468d69032b4a142b010ff6c9a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: rendering issue with invisible fixed columns",
+        "references": []
+      },
+      {
+        "id": "240913f63278dd6edf101a1e741726e7818c5450",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: repairs enableBusyIndicator with Navigation Mode Paginator",
+        "references": []
+      },
+      {
+        "id": "f4fb04589cef9a50cc01efd24d64867a8264173f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: resize bar not visible in RTL mode",
+        "references": []
+      },
+      {
+        "id": "3c74c17fe77e2de15e8d9444b3ec2289889ebff1",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: resizing of columns which should not be resizable",
+        "references": []
+      },
+      {
+        "id": "c0d6f83110cdc2bf6686698d85d7a31706b3b5ac",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: row header too small in cozy mode",
+        "references": []
+      },
+      {
+        "id": "3bedf01a863fe9da0cef86ae5f9b3bf643ecbf06",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: row selection rendering",
+        "references": []
+      },
+      {
+        "id": "89b7c0dd1a75e4b08389a5abffa579fb886ebb6b",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: scrollLeft is reset after vertical resize",
+        "references": []
+      },
+      {
+        "id": "189575414005b32362c6db65ff4e0cb943a6d02a",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: scrolling performance in large tables",
+        "references": []
+      },
+      {
+        "id": "1d5bfbf6ea45058c81beb24f4af4baecd8762b1d",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: setVisibleRowCount to a lower value than before",
+        "references": []
+      },
+      {
+        "id": "585542420b6232e6f05085f53893864c30b12247",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: simplified calculateUsedHeight() method",
+        "references": []
+      },
+      {
+        "id": "9ad27ff42f319df3244af378e93bab70052e77fc",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: tables w/o columns and selectionMode \"None\"",
+        "references": []
+      },
+      {
+        "id": "1cfd49c917b65a5937bf16d9e1a0eb22ae733b45",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: uncorrect column header widths",
+        "references": []
+      },
+      {
+        "id": "cdc79acfe9b71682f063b0d26ab72fc710286db3",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: unresponsive scroll bars in IE11",
+        "references": []
+      },
+      {
+        "id": "a909a73f5ad9a21056be1ea6727620b3b676428e",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: updates filterValue input field of column menu when filtering column by API",
+        "references": []
+      },
+      {
+        "id": "54244cea6048a3ad123064af93801a2b435c5d5f",
+        "type": "FIX",
+        "text": " sap.ui.table.Table: wrong font-size on \u003ctr\u003e",
+        "references": []
+      },
+      {
+        "id": "0c90399e8aae16e4dfa95085d6ecf97c1533ed7b",
+        "type": "FIX",
+        "text": " sap.ui.table.TableACCExtension: Various fixes",
+        "references": []
+      },
+      {
+        "id": "afbf6577fc77e2589b914f92f9ee931db867debf",
+        "type": "FIX",
+        "text": " sap.ui.table.TableKeyboardDelegate: Fix tabchain behavior in inital focus case",
+        "references": []
+      },
+      {
+        "id": "0b60eaf2bc5308255b824fb5ae44403151d203f2",
+        "type": "FIX",
+        "text": " sap.ui.table.TableKeyboardExtension: fixes null ref issue in destroy",
+        "references": []
+      },
+      {
+        "id": "3378b10ff6db9318caf1a3ce69e562ce5623c501",
+        "type": "FIX",
+        "text": " sap.ui.table.TablePersoController: Add stable IDs for Dialog",
+        "references": []
+      },
+      {
+        "id": "d98c3ded73c399b9441c0bc172f1cbaf64e4f8f3",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable/AnalyticalTable: Clear select all state before execute selectAll command",
+        "references": []
+      },
+      {
+        "id": "92f1cd349d5de7fef51dc9ca870bc855be0af562",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: Accessibility: Avoid announcement to jump into cell for leafs",
+        "references": []
+      },
+      {
+        "id": "2bb8cb0025d5a1fc493e7fb8dd088e9775252830",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: Fix Row selection in SelectionMode \"Single\" and \"None\".",
+        "references": []
+      },
+      {
+        "id": "ebef59fcf92d894f35d9dde64c9f3e790b8ee795",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: Fixes that expand/collapse icons display",
+        "references": []
+      },
+      {
+        "id": "886008dc5467701e17b33a3f5446df858bc6c109",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: Repair deselect all",
+        "references": []
+      },
+      {
+        "id": "5d0285b6d6e05dbb9fc5ed2affe16bb9dfc8a5da",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: Screenreader Announcement of tree icon",
+        "references": []
+      },
+      {
+        "id": "ff1337aec059a6866cc81e34a7314d8b57c775f7",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: checks for defined Binding in _updateTableContent of TreeTable",
+        "references": []
+      },
+      {
+        "id": "e3e16d519b6e8ce2a8d0f83693605e025ddefc75",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: fixes exception when Row DomRef is undefined",
+        "references": []
+      },
+      {
+        "id": "ee400fc63fc88e924e6ea1e5ec5fbb059cf493c9",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: fixes rendering information of fixed bottom rows",
+        "references": []
+      },
+      {
+        "id": "6fdc38c7df33ebfb25f7a41d0ef3e31ce72f57b4",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: fixes toggleOpenState event for leaves",
+        "references": []
+      },
+      {
+        "id": "7000d938de09a59bf10df55aa139d275952d1456",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: fixes useGroupMode for TreeTable",
+        "references": []
+      },
+      {
+        "id": "c72b8721a9fbd04b316599ebdb1f4c7363a76e9e",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: icons display are corrected in Cozy mode",
+        "references": []
+      },
+      {
+        "id": "7acbcca96505d46713b84c8922105b4b19cb7700",
+        "type": "FIX",
+        "text": " sap.ui.table.TreeTable: node label alignment issue",
+        "references": []
+      },
+      {
+        "id": "5f8624c7b350d0cf08a3bc7ebc884c6c2b8fac43",
+        "type": "FIX",
+        "text": " sap.ui.table.table: Display of selectAll checkBox on No Data is corrected",
+        "references": []
+      },
+      {
+        "id": "d8755875d002021a4770884d9c2d48de86fb98ca",
+        "type": "FIX",
+        "text": " sap.ui.table: Scroll performance",
+        "references": []
+      },
+      {
+        "id": "de26986f172c68b58795c5167ec128f8fc5c684b",
+        "type": "FIX",
+        "text": " sap.ui.table: Selection of MultiToggle mode in HCB theme is corrected",
+        "references": []
+      },
+      {
+        "id": "df4f58529dbd9141ea0e5f3cc700ed7ce49bbbe5",
+        "type": "FIX",
+        "text": " sap.ui.table: fix SelectionMode change issue of explored sample",
+        "references": []
+      },
+      {
+        "id": "3bf0d7abd30e2d18f1d38c673d9a12adc85804b5",
+        "type": "FIX",
+        "text": " sap_belize issues",
+        "references": []
+      },
+      {
+        "id": "e6fea4d1017fc5b3e6c127cd9d35afd7c7cdad84",
+        "type": "FIX",
+        "text": " table.TableDragAndDropExtension: fix DropPosition dependency",
+        "references": []
+      },
+      {
+        "id": "77b46ad02544a0a7cbbb55e909e121f87ca1b1c8",
+        "type": "FIX",
+        "text": " v2.ODataTreeBinding - Relative Binding",
+        "references": []
+      }
+    ]
+  }
+}

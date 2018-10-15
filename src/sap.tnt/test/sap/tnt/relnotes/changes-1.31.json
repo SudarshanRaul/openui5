@@ -1,0 +1,277 @@
+{
+  "1.31.0": {
+    "date": "October 2018",
+    "notes": [
+      {
+        "id": "23959d181f477d89f79c8638010b9f2897bfd255",
+        "type": "FEATURE",
+        "text": " new demo apps landing page",
+        "references": []
+      },
+      {
+        "id": "1770a7001881854c006f7bad8a1fb78c7c9b3249",
+        "type": "FEATURE",
+        "text": " sap.m.IconTabHeader: Unselected state is implemented",
+        "references": []
+      },
+      {
+        "id": "c37c94c653c7b4f6a7533ffa8314f705f1bd9287",
+        "type": "FEATURE",
+        "text": " sap.m.IconTabHeader: Usability on small screens is now improved",
+        "references": []
+      },
+      {
+        "id": "80b7fbdebe09755545c61ef72914ff6f965b4eb4",
+        "type": "FEATURE",
+        "text": " sap.m.NavigationListItem: Added one click navigation",
+        "references": []
+      },
+      {
+        "id": "601e422ff678503da9530011dfe71a0eea717c68",
+        "type": "FEATURE",
+        "text": " sap.tnt.IconTabHeader: sap.m.IconTabHeader is now correctly displayed inside sap.tnt.ToolHeader",
+        "references": []
+      },
+      {
+        "id": "cf137de19a839e809bf656d6fcf51af6355cce88",
+        "type": "FEATURE",
+        "text": " sap.tnt.InfoLabel: control implemented",
+        "references": []
+      },
+      {
+        "id": "b3000f4b21b23848ddbdf67bbc651ab7205981e6",
+        "type": "FEATURE",
+        "text": " sap.tnt.NavigationList: New selectedItem association added",
+        "references": []
+      },
+      {
+        "id": "2bf98f8445277efe4375bdd74e60c753ea8d6551",
+        "type": "FEATURE",
+        "text": " sap.tnt.NavigationListItem: new property \"visible\" introduced",
+        "references": []
+      },
+      {
+        "id": "2c354fd3c83429916d8048a9868097f6c1281fc9",
+        "type": "FEATURE",
+        "text": " sap.tnt.SideNavigation: Added animation when collapse/expand",
+        "references": []
+      },
+      {
+        "id": "a16cdea750938135399deb820339436ba36bc9d8",
+        "type": "FEATURE",
+        "text": " sap.tnt.ToolPage demokit app",
+        "references": []
+      },
+      {
+        "id": "eae4bbb8cef5cc49734db22bab1572e878af8ee5",
+        "type": "FEATURE",
+        "text": " sap.tnt: Shared configuration for test pages",
+        "references": []
+      },
+      {
+        "id": "e91c49c8853010ac24bc4c9304ff6a4a7c19a7fe",
+        "type": "FIX",
+        "text": "  Add Improvements to Run sap.tnt.demokit.toolpageapp on Mobile Devices",
+        "references": []
+      },
+      {
+        "id": "35847319218700ad82e5eef6de42d22474685df9",
+        "type": "FIX",
+        "text": " Corrected shared-config.js path",
+        "references": []
+      },
+      {
+        "id": "7afbdb345e6ea90a8307a8c5acd6dd9f80b5339e",
+        "type": "FIX",
+        "text": " changes-1.42.json: remove duplicates",
+        "references": []
+      },
+      {
+        "id": "a71d0e8706fbb65375fd85503b8f835a98ce62f5",
+        "type": "FIX",
+        "text": " sap.m.IconTabHeader, sap.m.RadioButtonGroup, sap.tnt.NavigationList: Alt+Arrow fixed.",
+        "references": []
+      },
+      {
+        "id": "2455a09ca1f6365fe8633c6cb2614450c0e0cb8a",
+        "type": "FIX",
+        "text": " sap.m.SideNavigation: Reduced control width",
+        "references": []
+      },
+      {
+        "id": "307d93eda2af5adeef61ae860f4e6dd898f0593b",
+        "type": "FIX",
+        "text": " sap.tnt, sap.ui.uinified.designtime: UUID added to the messagebundle files",
+        "references": []
+      },
+      {
+        "id": "5543f5f86408ad89cba75236433e183b4b0cd512",
+        "type": "FIX",
+        "text": " sap.tnt. ToolPage: SideNavigation is initially expanded  on laptop with touch",
+        "references": []
+      },
+      {
+        "id": "e608b163b2a34c1aef5654345123845a0e3a31bd",
+        "type": "FIX",
+        "text": " sap.tnt.InfoLabel: fix failing unit test",
+        "references": []
+      },
+      {
+        "id": "4bf589e3e3ab1b885abaeb8903a84e07eb8687a1",
+        "type": "FIX",
+        "text": " sap.tnt.NavigationList: Focus is now styled correctly",
+        "references": []
+      },
+      {
+        "id": "0ec17ff58341b34c6a28a0b70593acd50a3b64b7",
+        "type": "FIX",
+        "text": " sap.tnt.NavigationList: Icon rendering issue solved",
+        "references": []
+      },
+      {
+        "id": "788127d8f124f9426fb76a522a0f3e4768cb9cc1",
+        "type": "FIX",
+        "text": " sap.tnt.NavigationList: Keyboard handling fixed",
+        "references": []
+      },
+      {
+        "id": "1e9e157ddfc9b9dce16b4e89ae620d66b108a841",
+        "type": "FIX",
+        "text": " sap.tnt.NavigationList: Memory leak when closing popover is now fixed",
+        "references": []
+      },
+      {
+        "id": "c0bdbed3a148eee6945b01fe1f2b92b0471d71c1",
+        "type": "FIX",
+        "text": " sap.tnt.NavigationList: Popover not closing in collapsed mode issue fixed",
+        "references": []
+      },
+      {
+        "id": "6064be9a4770e39ce594d4a18311c5acf30a91a1",
+        "type": "FIX",
+        "text": " sap.tnt.NavigationList: The texts in the Popup are no longer cut off in IE",
+        "references": []
+      },
+      {
+        "id": "c0dd1c50b9a1c9da56a40a017502b45169c71cd6",
+        "type": "FIX",
+        "text": " sap.tnt.NavigationList: aria-expanded for the items works correctly now",
+        "references": []
+      },
+      {
+        "id": "02fb8a9004fde53c9988fd204a273de2a41c10f0",
+        "type": "FIX",
+        "text": " sap.tnt.NavigationListItem: Icon tooltip corrected",
+        "references": []
+      },
+      {
+        "id": "8485c3f9f1d64c95a6e86bb6599719267f1c5fb8",
+        "type": "FIX",
+        "text": " sap.tnt.SideNavigation: Blinking effect on collapse is not visible anymore",
+        "references": []
+      },
+      {
+        "id": "c413e800120fe79aa254d2476dd6c8ae9af29860",
+        "type": "FIX",
+        "text": " sap.tnt.SideNavigation: Expand/collapse animation visual glitches solved",
+        "references": []
+      },
+      {
+        "id": "0e2f3315124f17d6043cbddc970e9e2c9a739f81",
+        "type": "FIX",
+        "text": " sap.tnt.SideNavigation: Fix Typo in Sample",
+        "references": []
+      },
+      {
+        "id": "47afd46b8398a82f66565a642eccfffd9a78b490",
+        "type": "FIX",
+        "text": " sap.tnt.SideNavigation: Item navigation is now correct",
+        "references": []
+      },
+      {
+        "id": "7e5a7585c4c3a5f65f8043c003445b07fafe319a",
+        "type": "FIX",
+        "text": " sap.tnt.SideNavigation: Selected item in HCB and HCW in colored correctly",
+        "references": []
+      },
+      {
+        "id": "395ce8dc5b928aa329d7570c78c70347df380601",
+        "type": "FIX",
+        "text": " sap.tnt.SideNavigation: Size M has correct width now",
+        "references": []
+      },
+      {
+        "id": "a1c85a8b8fb725e9b69adaac388533ec62c781f9",
+        "type": "FIX",
+        "text": " sap.tnt.SideNavigation: Window scrolling in iOS is now prevented",
+        "references": []
+      },
+      {
+        "id": "f8170bcdfac5faa4ab7fdc269fe0f0b618674998",
+        "type": "FIX",
+        "text": " sap.tnt.ToolHeader: Border is now correct",
+        "references": []
+      },
+      {
+        "id": "38649781837cac62811fef166f243fb426762c10",
+        "type": "FIX",
+        "text": " sap.tnt.ToolHeader: qUnits tests are fixed",
+        "references": []
+      },
+      {
+        "id": "ca42118022c75402a16a9f53da5c359d5de4ed25",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage:",
+        "references": []
+      },
+      {
+        "id": "45dd08e64c835ccdd5d5c4a142d07b9bf4c36db5",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage: Count information not now read correctly",
+        "references": []
+      },
+      {
+        "id": "b25fe9b6de87f97dade3889b57647349f2923b2d",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage: Hidden footer when XmlView\u0027s height is 100% now corrected",
+        "references": []
+      },
+      {
+        "id": "512325029f1d4ddc3df257a7767f4d2c66605b87",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage: Issue with resizing in combi devices now corrected",
+        "references": []
+      },
+      {
+        "id": "64ffb1aef46d7e506a93de5e45b1a62f21940622",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage: SideNavigation overlapping the content in combi devices now corrected",
+        "references": []
+      },
+      {
+        "id": "4eeb21db8867ae73d48a48100c734264ba7b17fb",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage: Tool page is now correctly displayed, when there is no header",
+        "references": []
+      },
+      {
+        "id": "2c87e48b205406401f0ce18ddfd2f2f050d6b59a",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage: correct header DOM structure",
+        "references": []
+      },
+      {
+        "id": "96ac3265ad453238b8fd8790b398f3333e5966dd",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage: sideExpanded is fixed for Phone use case",
+        "references": []
+      },
+      {
+        "id": "1134d85bafbd28f8c14ae8e021dd243ca88408de",
+        "type": "FIX",
+        "text": " sap.tnt.ToolPage: sideExpanded is fixed in IE",
+        "references": []
+      }
+    ]
+  }
+}
